@@ -1,6 +1,9 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
+import Navbar from './navbar'
+import Head from 'next/head'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,13 +14,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <>
+    <div className='centered'>
+      <Head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-eDk+5i3BwzDwxK+1oMC49wHpF+GWWtnclE03mlbEY9MGv8zi9PyYwsV+dMKk8tSS" crossorigin="anonymous" />
+      </Head>
       <header>
-        <nav>Navbar</nav>
+        <Navbar/>
       </header>
       <h1>Todo bien</h1>
-      <Link href="/about">About</Link>
-      {children}
-    </>
+        <Link href="/about">About</Link>
+        {children}
+    </div>
+    
   )
 }

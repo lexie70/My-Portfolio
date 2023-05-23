@@ -1,5 +1,27 @@
 @import 'bootstrap/dist/css/bootstrap.css';
+@import '@fortawesome/fontawesome-svg-core/styles.css';
 
-/* h1{
-  background-color: red;
-} */
+
+
+
+body{
+  /* background-color: red; */
+  font-family: 'Jost', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+}
+
+.bars-nav {
+  margin-left: auto;
+  font-size: 25px;
+  /* background-color: aqua; */
+}
+
+
