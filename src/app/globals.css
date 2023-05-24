@@ -10,18 +10,5 @@ body{
   font-family: 'Playfair Display', serif;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  position: sticky;
-}
-
-.bars-nav {
-  margin-left: auto;
-  font-size: 25px;
-  /* background-color: aqua; */
-}
 
 
