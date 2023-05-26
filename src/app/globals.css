@@ -8,7 +8,28 @@ body{
   /* background-color: red; */
   font-family: 'Jost', sans-serif;
   font-family: 'Playfair Display', serif;
+  
+
 }
+
+h5{
+  text-transform:uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+}
+
+.developer {
+  display: flex;
+  justify-content: center;
+  text-shadow: 6px 6px 80px hsla(0,0%,94%,.825);
+  color: hsla(0,0%,100%,.97);
+  font-size: 10em;
+  width: 100%;
+  background-color: hsla(0,0%,55%,.026);
+  position: relative;
+  
+}
+
 
 
 
