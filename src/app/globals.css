@@ -27,19 +27,38 @@ h5{
   width: 100%;
   background-color: hsla(0,0%,55%,.026);
   position: relative;
+  font-family:'Helvetica Now Display' ;
   
 }
 
 h1{
-  color:red;
-  /* font-size: 4em; */
+  color:#000000;
+  font-size: 3.5em;
   font-family: 'Helvetica Now Display', sans-serif;
+  line-height: 1;
   
  }
 
  p{
-  /* font-family: 'Helvetica Now Display Light'; */
+  font-family: 'Helvetica Now Display Light';
+  color:#6c757d;
  }
+.main-cont{
+  position: relative;
+  bottom: 4em;
+}
 
+.link{
+  color:#000000;
+  font-family:Helvetica Now Display;
+  text-decoration: none;
+  text-transform: capitalize;
+  
+  
+}
+.link:hover{
+color:#000000;
+text-decoration:underline;
 
+}
 
