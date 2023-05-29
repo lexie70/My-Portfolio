@@ -1,14 +1,13 @@
 @import 'bootstrap/dist/css/bootstrap.css';
 @import '@fortawesome/fontawesome-svg-core/styles.css';
-
-
-
+@import url("./styles/helvetica_black/style.css");
+@import url("./styles/helvetica_light/style.css");
 
 body{
   /* background-color: red; */
-  font-family: 'Jost', sans-serif;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Helvetica Now Display Light', serif;
   
+
 
 }
 
@@ -16,6 +15,7 @@ h5{
   text-transform:uppercase;
   letter-spacing: 0.2em;
   font-size: 0.8em;
+  line-height: 0px;
 }
 
 .developer {
@@ -30,6 +30,16 @@ h5{
   
 }
 
+h1{
+  color:red;
+  /* font-size: 4em; */
+  font-family: 'Helvetica Now Display', sans-serif;
+  
+ }
+
+ p{
+  /* font-family: 'Helvetica Now Display Light'; */
+ }
 
 
 
