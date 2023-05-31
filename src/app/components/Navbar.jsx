@@ -9,11 +9,21 @@ export default function Navbar() {
   
   
     return <>
+
+    <section className={styles.navigation}>
+
         <nav className={styles.nav} >
-            <Link href="/" className='link'>favicon</Link>
-            <h1 className={styles.bars}  > MENU   <span className='me-5' ><FontAwesomeIcon icon={faBars} /></span> </h1>
+            <div>
+                <Link href="/" className='link '>favicon</Link>
+            </div>
+            <div>
+            <h1 className={styles.bars}  > MENU   
+                <span className='' ><FontAwesomeIcon icon={faBars} /></span> </h1>
+            </div>
+
          
         </nav>
+    </section>
         
         </> 
         }

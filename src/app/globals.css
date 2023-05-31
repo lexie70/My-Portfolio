@@ -6,10 +6,13 @@
 body{
   /* background-color: red; */
   font-family: 'Helvetica Now Display Light', serif;
-  
-
-
+  margin-left: 4em;
+  margin-right: 4em;
+  height: 2000px;
+  overflow: scroll
 }
+
+/* general styles for the general tags */
 
 h5{
   text-transform:uppercase;
@@ -18,17 +21,16 @@ h5{
   line-height: 0px;
 }
 
-.developer {
-  display: flex;
-  justify-content: center;
-  text-shadow: 6px 6px 80px hsla(0,0%,94%,.825);
-  color: hsla(0,0%,100%,.97);
-  font-size: 10em;
-  width: 100%;
-  background-color: hsla(0,0%,55%,.026);
-  position: relative;
-  font-family:'Helvetica Now Display' ;
-  
+.link{
+  color:#000000;
+  font-family:Helvetica Now Display;
+  text-decoration: none;
+  text-transform: capitalize;
+ 
+}
+.link:hover{
+color:#000000;
+text-decoration:underline;
 }
 
 h1{
@@ -43,22 +45,41 @@ h1{
   font-family: 'Helvetica Now Display Light';
   color:#6c757d;
  }
+
+/* home styles /intro component */
+
+.developer {
+  display: flex;
+  justify-content: center;
+  text-shadow: 6px 6px 80px hsla(0,0%,94%,.825);
+  color: hsla(0,0%,100%,.97);
+  font-size: 10em;
+  width: 100%;
+  font-family:'Helvetica Now Display' ;
+}
+  
+
 .main-cont{
   position: relative;
-  bottom: 4em;
+  bottom: 5em;
 }
 
-.link{
-  color:#000000;
-  font-family:Helvetica Now Display;
-  text-decoration: none;
-  text-transform: capitalize;
-  
-  
+@media (max-width: 950px){
+  .mobile{
+  position:relative;
+  top: 10em;
 }
-.link:hover{
-color:#000000;
-text-decoration:underline;
+
+  .developer{
+    display: none;
+  }
+
 
 }
+
+
+
+
+
+
 

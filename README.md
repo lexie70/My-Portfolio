@@ -1,3 +1,48 @@
+TO DO
+Home--->
+
+-Trabajar en el Intro component para responsive en mobile, donde la imagen se ponga atras del texto al alcanzar el tama;o de mobile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
