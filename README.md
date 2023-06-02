@@ -4,6 +4,12 @@ Home--->
 -Trabajar en el Intro component para responsive en mobile, donde la imagen se ponga atras del texto al alcanzar el tama;o de mobile
 
 
+CARD COMPONENT ->
+
+Media querie al 100% del width a partir de 660px
+
+Media queria FIJO a partir de 1500px para el card, deja de usar un width % y usa una medida FIJA en pixeles
+
 
 
 

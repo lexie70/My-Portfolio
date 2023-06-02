@@ -10,15 +10,16 @@ export default function Navbar() {
   
     return <>
 
-    <section className={styles.navigation}>
+    <section>
 
         <nav className={styles.nav} >
             <div>
                 <Link href="/" className='link '>favicon</Link>
             </div>
             <div>
-            <h1 className={styles.bars}  > MENU   
-                <span className='' ><FontAwesomeIcon icon={faBars} /></span> </h1>
+                 <h1 className={`${styles.bars}`} > MENU   
+                    <span className='' ><FontAwesomeIcon icon={faBars} /></span> 
+                </h1>
             </div>
 
          
