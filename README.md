@@ -6,8 +6,6 @@ Home--->
 
 CARD COMPONENT ->
 
-Media querie al 100% del width a partir de 660px
-
 Media queria FIJO a partir de 1500px para el card, deja de usar un width % y usa una medida FIJA en pixeles
 
 

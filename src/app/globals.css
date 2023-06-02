@@ -63,17 +63,22 @@ h1{
   bottom: 5em;
 }
 
-.card-width{
+.card-size{
   width: 48%;
   background-color: pink;
+  height: 50%;
 }
 
 .w-4{
   width: 4%;
-  background-color: black;
+  /* background-color: black; */
+}
+.cards-father{
+  height: 85em;
+  /* background-color: aqua; */
 }
 
-/* MEDIA QUERIES FOR TABLETS START HERE */
+/* MEDIA QUERIES START HERE */
 
 @media (max-width: 950px){
   .mobile{
@@ -83,6 +88,26 @@ h1{
 
   .developer{
     display: none;
+  }
+}
+
+@media (max-width: 704px){
+  .card-size{
+    width: 47%;
+    /* background-color: green; */
+    height: 50%;
+  }
+}
+
+@media (max-width: 650px){
+  .card-size{
+    width: 100%;
+    /* background-color: yellow; */
+    height: 50%;
+  }
+  .w-4{
+    width: 0%;
+    /* background-color: black; */
   }
 }
 

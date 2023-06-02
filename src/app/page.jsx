@@ -1,6 +1,7 @@
 import RootLayout from "./layout";
 import Link from "next/link";
 import "./globals.css"
+import florsita from "../../public/img/flor.jpg"
 
 export default function Home() {
 
@@ -9,6 +10,7 @@ export default function Home() {
   <section className="mobile">
     <Intro/>
     <Portfolio/>
+    <img src={florsita}/>
   </section>
   </>
   )
@@ -36,8 +38,8 @@ function Portfolio(){
   return <>
       <h5 className="mb-4">selected projects</h5>
       <h1 className="mb-4">Portfolio</h1>
-      <div className="d-flex row">
-        <Card />
+      <div className="d-flex row cards-father">
+        <Card title={"hola soy titulo"} subtitle={"subtitle"} image={florsita}/>
         <div className="w-4"></div>
         <Card/>
         <Card/>
@@ -51,9 +53,9 @@ function Portfolio(){
 
 function Card({title,image,subtitle}){
   return<>
-   <div className='card-width card mb-4'>
+   <div className='card-size card mb-5'>
       <h1>{title} blabla</h1>
-      {/* <img src={image} alt={title}/> */}
+      <img src={image} alt={title}/>
       <h2>{subtitle}</h2>
    </div>
   </>
