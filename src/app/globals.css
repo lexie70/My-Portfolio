@@ -6,9 +6,8 @@
 body{
   /* background-color: red; */
   font-family: 'Helvetica Now Display Light', serif;
-  margin-left: 4em;
-  margin-right: 4em;
-  overflow: scroll
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 /* general styles for the general tags */
@@ -20,14 +19,14 @@ h5{
   line-height: 0px;
 }
 
-.link{
+a{
   color:#000000;
-  font-family:Helvetica Now Display;
+  font-family:'Helvetica Now Display';
   text-decoration: none;
   text-transform: capitalize;
  
 }
-.link:hover{
+a:hover{
 color:#000000;
 text-decoration:underline;
 }
@@ -63,10 +62,30 @@ h1{
   bottom: 5em;
 }
 
-.card-size{
-  width: 48%;
-  background-color: pink;
-  height: 50%;
+.card-componet{
+  width: min(100%,500px);
+  /* background-color: pink; */
+  height:500px;
+  border: #6c757d 1px solid;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(130, 128, 128, 0.322);
+  
+  >div > img{ 
+    display: block;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+  }
+>h1{
+  height: 20%;
+}
+>div{
+  height: 60%;
+}
+>h2{
+  height: 20%;
+}
+
 }
 
 .w-4{
@@ -76,6 +95,27 @@ h1{
 .cards-father{
   height: 85em;
   /* background-color: aqua; */
+}
+
+.overflow img{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  
+}
+
+.viewport-screen-100{
+  width: 100vw;
+  height: 100vh;
+  
+
+}
+/* Portfolio component styles */
+.card-project-container{
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
 
 /* MEDIA QUERIES START HERE */
@@ -91,20 +131,10 @@ h1{
   }
 }
 
-@media (max-width: 704px){
-  .card-size{
-    width: 47%;
-    /* background-color: green; */
-    height: 50%;
-  }
-}
+
 
 @media (max-width: 650px){
-  .card-size{
-    width: 100%;
-    /* background-color: yellow; */
-    height: 50%;
-  }
+ 
   .w-4{
     width: 0%;
     /* background-color: black; */

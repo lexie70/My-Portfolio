@@ -17,8 +17,8 @@ export default function Navbar() {
                 <Link href="/" className='link '>favicon</Link>
             </div>
             <div>
-                 <h1 className={`${styles.bars}`} > MENU   
-                    <span className='' ><FontAwesomeIcon icon={faBars} /></span> 
+                 <h1 className={styles.bars}>MENU   
+                    <span className='ms-1'><FontAwesomeIcon icon={faBars} /></span> 
                 </h1>
             </div>
 
