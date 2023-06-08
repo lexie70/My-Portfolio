@@ -41,11 +41,11 @@ function Portfolio(){
   
       <h5 className="mb-4">selected projects</h5>
       <h1 className="mb-4">Portfolio</h1>
-      <div className="card-project-container">
-        <Card title={"hola soy titulo"} subtitle={"blebleble"} image={flores}/>
-        <Card/>
-        <Card/>
-        <Card/>
+      <div className="card-project-container container row">
+        <div className='col-sm-12 col-md-5 mb-4'><Card title={"hola soy titulo"} subtitle={"blebleble"}/></div>
+        <div className=' col-sm-12 col-md-5 mb-4'><Card/></div>
+        <div className=' col-sm-12  col-md-5 mb-4'><Card/></div>
+        <div className=' col-sm-12 col-md-5 mb-4'><Card/></div>
       </div>
   </div>
 
@@ -54,7 +54,7 @@ function Portfolio(){
 
 
 
-function Card({title,image,subtitle}){
+function Card({title,subtitle}){
   return<>
    <div className='card-componet'>
       <h1>{title}</h1>
@@ -62,7 +62,6 @@ function Card({title,image,subtitle}){
           <Image
           src={flores}
           alt="Picture of the author"
-          // style={{}}
         />
       </div>
       <h2>{subtitle}</h2>

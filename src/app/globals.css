@@ -4,10 +4,11 @@
 @import url("./styles/helvetica_light/style.css");
 
 body{
-  /* background-color: red; */
   font-family: 'Helvetica Now Display Light', serif;
   overflow: scroll;
   overflow-x: hidden;
+  margin-left:20px;
+  margin-right: 20px;
 }
 
 /* general styles for the general tags */
@@ -72,7 +73,7 @@ h1{
   
   >div > img{ 
     display: block;
-    width: auto;
+    width:75%;
     height: 100%;
     margin: 0 auto;
   }
@@ -111,11 +112,8 @@ h1{
 }
 /* Portfolio component styles */
 .card-project-container{
-  /* background-color: red; */
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
   justify-content: center;
+  margin: 0 auto;
 }
 
 /* MEDIA QUERIES START HERE */

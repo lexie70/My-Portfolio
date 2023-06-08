@@ -3,9 +3,9 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
+    padding-right: 40px;
     position: fixed;
     width: 100%;
-    padding-right: 100px;
     z-index: 3;
   }
 

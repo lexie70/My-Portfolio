@@ -21,8 +21,6 @@ export default function Navbar() {
                     <span className='ms-1'><FontAwesomeIcon icon={faBars} /></span> 
                 </h1>
             </div>
-
-         
         </nav>
     </section>
         

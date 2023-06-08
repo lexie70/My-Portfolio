@@ -3,6 +3,8 @@ Home--->
 
 -Trabajar en el Intro component para responsive en mobile, donde la imagen se ponga atras del texto al alcanzar el tama;o de mobile
 
+-margin global quitarlo en mibile
+
 
 CARD COMPONENT ->
 
