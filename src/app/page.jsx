@@ -10,7 +10,6 @@ export default function Home() {
   <section className="mobile">
     <Intro/>
     <Portfolio/>
-    <h2 className='mt-5'>Haha</h2>
   </section>
   </>
   )

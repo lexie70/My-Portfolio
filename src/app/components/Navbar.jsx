@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars} from '@fortawesome/free-solid-svg-icons';
 import styles from "./Navbar.module.css"
 import Link from 'next/link';
 

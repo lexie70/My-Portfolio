@@ -19,7 +19,13 @@ h5{
   font-size: 0.8em;
   line-height: 0px;
 }
-
+h3{
+  text-transform:capitalize;
+  font-family:'Helvetica Now Display';
+  color: #0f141e;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
 a{
   color:#000000;
   font-family:'Helvetica Now Display';
