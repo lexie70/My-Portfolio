@@ -1,33 +1,12 @@
 
 .mainbox {
     /* background-color: red; */
-    margin-top: 300px;    
+    margin-top: 250px;    
 }
 
-.need{
-    font-size: .875rem;
-    line-height: 1.25rem;
-    text-transform: uppercase;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    /* background-color: yellow; */
-}
-.lets{
-    margin-bottom: 100px;
-}
-.link{
-    display: flex;
-    align-items: center;
-    margin-bottom: 50px;
-    font-size: 34px;
-    /* background-color: red; */
-}
-.text {
-    margin-right: 0.5rem;
-    white-space: nowrap; /* Evita el salto de línea del texto */
-  }
 
-  /* information component styles */
+
+  
 
   
 

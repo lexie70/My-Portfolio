@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from "next/link";
 import "./globals.css"
 import flores from "../../public/img/flores2.jpg"
+import NeedADeveloper from './components/NeedADeveloper';
 
 export default function Home() {
 
@@ -10,6 +11,7 @@ export default function Home() {
   <section className="mobile">
     <Intro/>
     <Portfolio/>
+    <NeedADeveloper/>
   </section>
   </>
   )
@@ -26,7 +28,7 @@ function Intro(){
       <div className="main-cont">
         <h5 className="mb-4">Alexandra Campos</h5>
         <h1 className="col-6">Frontend Developer and web designer</h1>
-        <p className="col-6 mt-4">Over the past 3 years I have been working with big eCommerce companies around the world. Offering services around them, working solo, leading small eCommerce teams, maintaining eCommerce websites and developing SAAS</p>
+        <p className="col-6 mt-4">Since 2019 I have been working in various projects, some of them involving big eCommerce companies. Had the opportunity to be part of small teams and developed various responsive websites and SPAs and even had the chance to take part in a SAAS Project</p>
         <Link href="/projects">view projects</Link><span className="ms-1 me-1"> or </span><Link href="/about">read about me</Link>
       </div>
 
