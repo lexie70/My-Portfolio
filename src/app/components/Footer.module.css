@@ -1,7 +1,15 @@
 
 .mainbox {
     /* background-color: red; */
-    margin-top: 250px;    
+    margin-top: 250px; 
+    align-items:baseline;   
+}
+.h3{
+margin-top: 50px;
+/* background-color: red; */
+}
+.li{
+    list-style-type: none;
 }
 
 

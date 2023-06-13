@@ -23,6 +23,7 @@ h3{
   text-transform:capitalize;
   font-family:'Helvetica Now Display';
   color: #0f141e;
+  margin-bottom: 20px;
   /* background-color: red; */
 }
 a{
@@ -125,8 +126,10 @@ h1{
 
 @media (max-width: 950px){
   .mobile{
-  position:relative;
-  top: 10em;
+  /* position:relative;
+  top: 10em; */
+  margin-top: 10em;
+  background-color: red;
 }
 
   .developer{
