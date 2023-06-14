@@ -6,9 +6,9 @@ import Link from 'next/link';
 export default function NeedADeveloper() {
     return <>
 
-    <div className={style.mainbox}>
-        <h5 className={style.need}>need a developer?</h5>
+    <div className={`${style.mainbox} center-needadeveloper-text`}>
         <div className={style.link}>
+            <h5 className={style.need}>need a developer?</h5>
             <Link href="/together">
                 <span className={style.text}>Let's work together</span>
             </Link>

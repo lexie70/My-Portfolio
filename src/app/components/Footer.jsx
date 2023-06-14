@@ -4,7 +4,7 @@ import style from "./Footer.module.css"
 import Link from 'next/link';
 
 export default function Footer() {
-    return <div className={`${style.mainbox} row`}>
+    return <div className={`${style.mainbox} row mobile`}>
         <div className='col-sm-6 col-md-12 col-lg-4'>
             <ContactInformation  text={"Feel free to reach out to me any time. I prefer to talk over email, especially since we may be a few time zones away."}
             email={"E : alexandracampos658@gmail.com"} phone={"P: +506 62619656"}/>
@@ -24,7 +24,7 @@ export default function Footer() {
 
 function ContactInformation({text,email,phone}){
 return <div>
-   <h3>Contact <br className='d-none d-md-inline'/>Information
+   <h3 className={style.h3}>Contact <br className='d-none d-md-inline'/>Information
        <span className='ms-1'>
        <FontAwesomeIcon icon={faMinus} />   
        </span>

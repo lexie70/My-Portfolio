@@ -126,26 +126,36 @@ h1{
 
 @media (max-width: 950px){
   .mobile{
-  /* position:relative;
-  top: 10em; */
-  margin-top: 10em;
-  background-color: red;
-}
-
+    position:relative;
+    top: 200px;
+    
+    /* background-color: red; */
+  }
+  
   .developer{
     display: none;
   }
 }
-
-
-
-@media (max-width: 650px){
- 
-  .w-4{
-    width: 0%;
-    /* background-color: black; */
-  }
+@media (min-width: 950px){
+.large-screen{
+  position:relative;
+    top: 150px;
 }
+
+}
+
+@media (min-width: 765px){
+  .center-needadeveloper-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+ 
+}
+
+/* together page */
 
 
 

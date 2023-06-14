@@ -11,12 +11,10 @@ export default function RootLayout({ children }) {
         <title>My first next 13</title>
       </head>
       <body>
-        <header>
-          <nav>
             <Navbar/>
-          </nav>
-        </header>
-      {children}
+          <div className=' '>
+              {children}
+          </div>
         <Footer/>
       </body>
     </html>  
