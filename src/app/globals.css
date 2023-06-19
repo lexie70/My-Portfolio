@@ -16,8 +16,8 @@ body{
 h5{
   text-transform:uppercase;
   letter-spacing: 0.2em;
-  font-size: 0.8em;
-  line-height: 0px;
+  font-size: .875em;
+  font-weight: 400;
   color: #878a8f;
 }
 h3{

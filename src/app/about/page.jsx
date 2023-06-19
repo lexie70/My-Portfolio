@@ -14,7 +14,18 @@ export default function About() {
      In my spare time I enjoy exercising and playing videogames.</h3>
   </div>
   <Carousel/>
+  <List title={"test title"} list={["js","html","css"]}/>
   </>
   )
 }
+
+function List({title,list}){
+  return<>
+  <h5>{title}</h5>
+  {list.map((item)=>{
+    <h3>{item} <span className="ms-2 me-2"> | </span></h3>
+  })}
+  </>
+}
+
 
