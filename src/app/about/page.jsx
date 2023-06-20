@@ -5,7 +5,7 @@ import Carousel from "../components/Carousel"
 import NeedADeveloper from "../components/NeedADeveloper"
 
 export default function About() {
-  return (<div className="mobile large-screen mainBox-about">
+  return (<div className="mobile-about large-screen mainBox-about">
     <h5 className="mb-4">A FEW WORDS ABOUT ME</h5>
     <h1>I'm Alexandra Campos, a multidisciplinary developer who focuses on telling my clients’ stories visually, through enjoyable
        and meaningful experiences. I specialize in responsive websites and functional user interfaces.</h1>

@@ -15,7 +15,7 @@ body{
 
 h5{
   text-transform:uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.5em;
   font-size: .875em;
   font-weight: 400;
   color: #878a8f;
@@ -137,6 +137,10 @@ h1{
     position:relative;
     top: 200px;
   }
+  .mobile-about{
+   position: relative;
+   top: 100px; 
+  }
   .centering{
 
     margin-bottom: 80px;
@@ -149,7 +153,6 @@ h1{
   .text {
     margin-right: 0.5rem;
     white-space: nowrap; /* Evita el salto de línea del texto */
-    /* background-color: red; */
     font-size: 2.125rem;
     line-height: 2.5rem;
     padding-top: 2px;
@@ -163,6 +166,11 @@ h1{
   h2{
     font-size: 1em;
   }
+  h1{
+    font-size: 2em;
+    line-height: 3rem;
+  }
+ 
 }
 @media (min-width: 950px){
 .large-screen{
@@ -221,7 +229,8 @@ h1{
 .h3class-about{
   color: #878a8f;
   font-family: 'Helvetica Now Display Light' !important;
-  font-size: 1.375rem
+  font-size: 1.375rem;
+  
 
 }
 .margin-separation{
