@@ -175,13 +175,13 @@ h1{
    line-height: 1.5em; 
   }
   .mainBox-about{
-    width: 100%!important;
-   
+  width: 100%!important;
+  /* background-color: pink;    */
   }
   body{
     margin-left: 10px;
     margin-right: 0px;
-    width: 100%;
+    width: 100%!important;
   }
   
 }

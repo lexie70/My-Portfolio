@@ -1,10 +1,5 @@
 
-.mainbox {
-    /* background-color: red; */
-    margin-top: 250px; 
-    align-items:baseline; 
-      
-}
+
 .h3{
 margin-top: 50px;
 font-size: 1.125rem;
@@ -26,6 +21,18 @@ padding-bottom: 4px;
     margin-top: 20px;
 }
 }
+@media(min-width: 950px){
+.mainbox {
+margin-top: 250px; 
+align-items:baseline; 
+}
+          
+.h3{
+    margin-top: 20px;
+}
+}
+
+
 
 
 
