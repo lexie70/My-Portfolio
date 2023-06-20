@@ -15,11 +15,11 @@ export default function About() {
   
   <Carousel/>
   <div className="row">
-    <div className="col-6">
+    <div className="col-12 col-sm-6">
       <List title={"Services I Offer"} list={["Front-end Development ","Web Design",
       "Mobile First Websites","Back-end Development"]}/> 
     </div>
-    <div className="col-6">
+    <div className="col-12 col-sm-6">
       <List title={"Services I Offer"} list={["Front-end Development ","Web Design",
       "Mobile First Websites","Back-end Development"]}/> 
     </div>
@@ -36,11 +36,11 @@ export default function About() {
 function List({title,list}){
   return<section className="margin-separation ms-5 me-5">
   <h5>{title}</h5> 
-  <div className="">
+  <div className="mt-3">
     <h3>
       {list.map((item)=>{
         return <>
-        {item}<strong className="ms-3 me-3">|</strong>
+        {item}<strong className="ms-2 me-2">|</strong>
         </> 
       })}
       </h3>

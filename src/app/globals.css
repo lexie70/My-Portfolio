@@ -168,9 +168,22 @@ h1{
   }
   h1{
     font-size: 2em;
-    line-height: 3rem;
+    line-height: 2.5rem;
   }
- 
+  h3{
+   font-size: 1.2em;
+   line-height: 1.5em; 
+  }
+  .mainBox-about{
+    width: 100%!important;
+   
+  }
+  body{
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 100%;
+  }
+  
 }
 @media (min-width: 950px){
 .large-screen{

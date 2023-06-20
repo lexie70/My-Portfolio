@@ -18,6 +18,16 @@ padding-bottom: 4px;
 }
 
 
+@media(max-width: 950px){
+.mainbox{
+    margin-top: 0px;
+}
+.h3{
+    margin-top: 20px;
+}
+}
+
+
 
   
 
