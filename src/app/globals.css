@@ -204,24 +204,42 @@ h1{
       top: 150px;
 
   }
+  .mainBox-about{
+    display: block;
+    /* justify-content: center; */
+    text-align: center;
+    width: 75%!important;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* read about me classes */
 
-.mainBox-about{
-  display: block;
-  /* justify-content: center; */
-  text-align: center;
-  width: 75%!important;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .h3class-about{
   color: #878a8f;
   font-family: 'Helvetica Now Display Light' !important;
   font-size: 1.375rem
 
+}
+.margin-separation{
+  margin-top: 100px;
+}
+
+h3 strong{
+  color: #878a8f;
+}
+.linkedin{
+  color:#878a8f;
+  border-bottom: 1px solid;
+  font-weight: lighter;
+  font-family:  "Now Display Light"
+}
+.linkedin:hover{
+  color:#878a8f;
+  border-bottom: none !important;
 }
 
 

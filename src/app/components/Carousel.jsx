@@ -11,7 +11,7 @@ export default function Carousel(){
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
 
-    <div className="carousel-inner mobile large-screen">
+    <div className="carousel-inner">
         {/* Este es el primer slider del carrusel */}
         <div className="carousel-item active" data-bs-interval="10000">
             <div className="d-flex justify-content-center">
