@@ -3,6 +3,8 @@
 @import url("./styles/helvetica_black/style.css");
 @import url("./styles/helvetica_light/style.css");
 
+
+
 body{
   font-family: 'Helvetica Now Display Light', serif;
   overflow: scroll;
@@ -27,6 +29,16 @@ h3{
   margin-bottom: 20px;
   letter-spacing: normal;
   /* background-color: red; */
+}
+h4{
+  font-weight: 500;
+    color: #0f141e;
+    letter-spacing: normal;
+    font-size: 1.250rem;
+    line-height:1.6rem;
+    padding-top: 1px;
+    padding-bottom: 4px;
+    font-family: "Helvetica Now Display Light",sans-serif;
 }
 a{
   color:#000000;
@@ -177,7 +189,9 @@ h1{
   .mainBox-about{
   width: 100%!important;
   /* background-color: pink;    */
+
   }
+
   body{
     margin-left: 10px;
     margin-right: 0px;
@@ -263,6 +277,17 @@ h3 strong{
   color:#878a8f;
   border-bottom: none !important;
 }
+
+/* lets work together classes */
+
+.crmap-size{
+  > img{ 
+    width:100%;
+    height: auto;
+    background-color: red;
+  }
+}
+  
 
 
 

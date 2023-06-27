@@ -1,6 +1,3 @@
-import Link from "next/link"
-import Image from "next/image"
-import flores from "../../../public/img/flores.jpg"
 import Carousel from "../components/Carousel"
 import NeedADeveloper from "../components/NeedADeveloper"
 
@@ -15,10 +12,6 @@ export default function About() {
   
   <Carousel/>
   <div className="row">
-    {/* <div className="col-12 col-md-6">
-      <List title={"TECHNOLOGIES I USE"} list={["Javascript","ReactJS",
-      "NextJS","Python","Flask-SQLAlchemy","VSCode","GitHub","Git","Scrum","Agile"]}/> 
-    </div> */}
     <div className="col-12 col-md-6">
       <List title={"technologies i use"} list={["Javascript","HTML",
       "CSS"," ReactJS","NextJS","Python"," Flask","VSCode","GitHub"," Git","Scrum","Agile"]}/> 
