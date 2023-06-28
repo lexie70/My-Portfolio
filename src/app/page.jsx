@@ -28,7 +28,7 @@ function Intro(){
       <div className="main-cont">
         <h5 className="mb-4">Alexandra Campos</h5>
         <h1 className="col-6">Frontend Developer and web designer</h1>
-        <p className="col-6 mt-4 bg-primary">Since 2019 I have been working in various projects, some of them involving big eCommerce companies. Had the opportunity to be part of small teams and developed various responsive websites and SPAs and even had the chance to take part in a SAAS Project</p>
+        <p className="col-6 mt-4">Since 2019 I have been working in various projects, some of them involving big eCommerce companies. Had the opportunity to be part of small teams and developed various responsive websites and SPAs and even had the chance to take part in a SAAS Project</p>
         <Link href="/#portfolio">view projects</Link><span className="ms-1 me-1"> or </span><Link href="/about">read about me</Link>
       </div>
 
