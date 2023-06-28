@@ -23,12 +23,10 @@ h5{
   color: #878a8f;
 }
 h3{
-  /* text-transform:capitalize; */
   font-family:'Helvetica Now Display';
   color: #0f141e;
   margin-bottom: 20px;
   letter-spacing: normal;
-  /* background-color: red; */
 }
 h4{
   font-weight: 500;
