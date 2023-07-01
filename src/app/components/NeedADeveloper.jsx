@@ -9,7 +9,7 @@ export default function NeedADeveloper() {
     <div className={`${style.mainbox} center-needadeveloper-text`}>
         <div className="centering">
             <h5 className={style.need}>need a developer?</h5>
-            <Link href="/together">
+            <Link href="/contact">
                 <h1 className= "text">
                     <span >Let's work Together</span>
                     <span>
