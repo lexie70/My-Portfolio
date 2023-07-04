@@ -37,12 +37,6 @@ export default function About() {
 }
 
 function SendAMessage() {
-  const [name, setName] = useState("Alexandra");
-  const [email, setEmail] = useState("a@a.com");
-  const [service, setService] = useState("");
-  const [budget, setBudget] = useState("");
-  const [message, setMessage] = useState("");
-
   const [data, setData] = useState({
     name: "",
     email: "",
@@ -64,7 +58,7 @@ function SendAMessage() {
 
   return (
     <>
-      <div className="mt-3 message-section">
+      <div className="mt-3 message-section ">
         <p className="color-grey">
           <b>
             Got a project? Drop me a line if you want to work together on
@@ -100,8 +94,10 @@ function SendAMessage() {
               <select
                 name="service"
                 id="service"
-                value={service}
-                onChange={(e) => setService(e.target.value)}
+                value={data.service}
+                onChange={(e) =>
+                  setData((prev) => ({ ...prev, service: e.target.value }))
+                }
               >
                 <option value="What are you interested in?">
                   What are you interested in?
@@ -123,7 +119,14 @@ function SendAMessage() {
 
             <div className="mt-5 mb-5">
               <label htmlFor="budget">Budget</label>
-              <select name="budget" id="budget">
+              <select
+                name="budget"
+                id="budget"
+                value={data.budget}
+                onChange={(e) =>
+                  setData((prev) => ({ ...prev, budget: e.target.value }))
+                }
+              >
                 <option value="What is your budget?">
                   What is your budget?
                 </option>
@@ -139,17 +142,19 @@ function SendAMessage() {
               className="message-input"
               name="message"
               id="message"
+              value={data.message}
+              onChange={(e) =>
+                setData((prev) => ({ ...prev, message: e.target.value }))
+              }
             />
-            <div className="mt-5">
+            <div className="submit-class">
               <button type="submit" onClick={handleSubmit}>
                 <FontAwesomeIcon icon={faEnvelope} />
                 <b> Send message </b>
               </button>
-              <section onClick={() => console.log(data)}>
-                <b> Data Information </b>
-              </section>
             </div>
           </form>
+          <hr />
         </div>
       </div>
     </>

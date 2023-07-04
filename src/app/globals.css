@@ -1,160 +1,157 @@
-@import 'bootstrap/dist/css/bootstrap.css';
-@import '@fortawesome/fontawesome-svg-core/styles.css';
+@import "bootstrap/dist/css/bootstrap.css";
+@import "@fortawesome/fontawesome-svg-core/styles.css";
 @import url("./styles/helvetica_black/style.css");
 @import url("./styles/helvetica_light/style.css");
 
-body{
-  font-family: 'Helvetica Now Display Light', serif;
+body {
+  font-family: "Helvetica Now Display Light", serif;
   overflow: scroll;
   overflow-x: hidden;
-  margin-left:20px;
+  margin-left: 20px;
   margin-right: 20px;
 }
 
 /* general styles for the general tags */
 
-h5{
-  text-transform:uppercase;
+h5 {
+  text-transform: uppercase;
   letter-spacing: 0.5em;
-  font-size: .875em;
+  font-size: 0.875em;
   font-weight: 400;
   color: #878a8f;
 }
 
-h3{
-  font-family:'Helvetica Now Display';
+h3 {
+  font-family: "Helvetica Now Display";
   color: #0f141e;
   margin-bottom: 20px;
   letter-spacing: normal;
 }
 
-h4{
+h4 {
   font-weight: 500;
-    color: #0f141e;
-    letter-spacing: normal;
-    font-size: 1.250rem;
-    line-height:1.6rem;
-    padding-top: 1px;
-    padding-bottom: 4px;
-    font-family: "Helvetica Now Display Light",sans-serif;
+  color: #0f141e;
+  letter-spacing: normal;
+  font-size: 1.25rem;
+  line-height: 1.6rem;
+  padding-top: 1px;
+  padding-bottom: 4px;
+  font-family: "Helvetica Now Display Light", sans-serif;
 }
 
-a{
-  color:#000000;
-  font-family:'Helvetica Now Display';
+a {
+  color: #000000;
+  font-family: "Helvetica Now Display";
   text-decoration: none;
   text-transform: capitalize;
 }
 
-a:hover{
-color:#000000;
-text-decoration:underline;
+a:hover {
+  color: #000000;
+  text-decoration: underline;
 }
 
-h1{
-  color:#000000;
+h1 {
+  color: #000000;
   font-size: 3.5em;
-  font-family: 'Helvetica Now Display', sans-serif;
+  font-family: "Helvetica Now Display", sans-serif;
   line-height: 3rem;
- }
+}
 
- h2{
-  color:#000000;
+h2 {
+  color: #000000;
   font-size: 2em;
-  font-family: 'Helvetica Now Display', sans-serif;
+  font-family: "Helvetica Now Display", sans-serif;
   line-height: 1;
- }
+}
 
- p{
-  font-family: 'Helvetica Now Display Light';
-  color:#6c757d;
- }
+p {
+  font-family: "Helvetica Now Display Light";
+  color: #6c757d;
+}
 
 /* home styles /intro component */
 
 .developer {
   display: flex;
   justify-content: center;
-  text-shadow: 6px 6px 80px hsla(0,0%,94%,.825);
-  color: hsla(0,0%,100%,.97);
+  text-shadow: 6px 6px 80px hsla(0, 0%, 94%, 0.825);
+  color: hsla(0, 0%, 100%, 0.97);
   font-size: 10em;
   width: 100%;
-  font-family:'Helvetica Now Display' ;
+  font-family: "Helvetica Now Display";
 }
-  
 
-.main-cont{
+.main-cont {
   position: relative;
   bottom: 5em;
 }
 
-.card-componet{
-  width: min(100%,500px);
+.card-componet {
+  width: min(100%, 500px);
   /* background-color: pink; */
-  height:500px;
+  height: 500px;
   border: #6c757d 1px solid;
   border-radius: 10px;
   box-shadow: 0px 0px 5px rgba(130, 128, 128, 0.322);
-  
-  >div > img{ 
+
+  > div > img {
     display: block;
-    width:75%;
+    width: 75%;
     height: 100%;
     margin: 0 auto;
   }
->h5{
-  height: 5%;
-}
->div{
-  height: 75%;
-}
->h2{
-  height: 10%;
+  > h5 {
+    height: 5%;
+  }
+  > div {
+    height: 75%;
+  }
+  > h2 {
+    height: 10%;
+  }
 }
 
-}
-
-.w-4{
+.w-4 {
   width: 4%;
   /* background-color: black; */
 }
 
-.cards-father{
+.cards-father {
   height: 85em;
   /* background-color: aqua; */
 }
 
-.overflow img{
+.overflow img {
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
-.viewport-screen-100{
+.viewport-screen-100 {
   width: 100vw;
   height: 100vh;
 }
 
 /* Portfolio component styles */
-.card-project-container{
+.card-project-container {
   justify-content: center;
   margin: 0 auto;
 }
 
 /* MEDIA QUERIES START HERE */
 
-@media (max-width: 950px){
-
-  .mobile{
-    position:relative;
+@media (max-width: 950px) {
+  .mobile {
+    position: relative;
     top: 200px;
   }
 
-  .mobile-about{
-   position: relative;
-   top: 100px; 
+  .mobile-about {
+    position: relative;
+    top: 100px;
   }
 
-  .centering{
+  .centering {
     margin-bottom: 80px;
     align-items: center;
     display: flex;
@@ -170,56 +167,54 @@ h1{
     padding-top: 2px;
     padding-bottom: 3px;
   }
-    
-  .developer{
+
+  .developer {
     display: none;
   }
 
-  h2{
+  h2 {
     font-size: 1em;
   }
 
-  h1{
+  h1 {
     font-size: 2em;
     line-height: 2.5rem;
   }
 
-  h3{
-   font-size: 1.2em;
-   line-height: 1.5em; 
+  h3 {
+    font-size: 1.2em;
+    line-height: 1.5em;
   }
 
-  .mainBox-about{
-  width: 100%!important;
-  /* background-color: pink;    */
-
+  .mainBox-about {
+    width: 100% !important;
+    /* background-color: pink;    */
   }
 
-  body{
+  body {
     margin-left: 10px;
     margin-right: 0px;
-    width: 100%!important;
+    width: 100% !important;
   }
-  
 }
 
-@media (min-width: 950px){
-  .large-screen{
-    position:relative;
+@media (min-width: 950px) {
+  .large-screen {
+    position: relative;
     top: 150px;
   }
 
-  .centering{
-  margin-bottom: 80px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  .centering {
+    margin-bottom: 80px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
-@media (min-width: 765px){
-  .center-needadeveloper-text{
+@media (min-width: 765px) {
+  .center-needadeveloper-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -235,16 +230,15 @@ h1{
     padding-bottom: 5px;
   }
 
-  .large-screen{
-    position:relative;
-      top: 150px;
-
+  .large-screen {
+    position: relative;
+    top: 150px;
   }
 
-  .mainBox-about{
+  .mainBox-about {
     display: block;
     text-align: center;
-    width: 75%!important;
+    width: 75% !important;
     margin-left: auto;
     margin-right: auto;
   }
@@ -252,42 +246,41 @@ h1{
 
 /* read about me classes */
 
-.h3class-about{
+.h3class-about {
   color: #878a8f;
-  font-family: 'Helvetica Now Display Light' !important;
+  font-family: "Helvetica Now Display Light" !important;
   font-size: 1.375rem;
 }
 
-.margin-separation{
+.margin-separation {
   margin-top: 100px;
 }
 
-h3 strong{
+h3 strong {
   color: #878a8f;
 }
 
-.linkedin{
-  color:#878a8f;
+.linkedin {
+  color: #878a8f;
   border-bottom: 1px solid;
   font-weight: lighter;
-  font-family:  "Now Display Light"
+  font-family: "Now Display Light";
 }
 
-.linkedin:hover{
-  color:#878a8f;
+.linkedin:hover {
+  color: #878a8f;
   border-bottom: none !important;
 }
 
 /* contact classes */
 
-.crmap-size{
-  > img{ 
-    width:100%;
-    height: auto;
-    background-color: red;
+.crmap-size {
+  > img {
+    width: 100%;
+    height: 310px;
   }
 }
-.input-container input{
+.input-container input {
   background: #fff;
   width: 100%;
   height: 45px;
@@ -301,63 +294,53 @@ h3 strong{
   margin-bottom: 40px;
   /* background-color:pink; */
 }
-.input-container label{
-  color:#878a8f;
+.input-container label {
+  color: #878a8f;
 }
 
-.input-container input:focus{
+.input-container input:focus {
   outline: none;
   /* background-color: aqua; */
 }
-::placeholder{
-  color:#000000;
+::placeholder {
+  color: #000000;
 }
-select{
+select {
   background: #fff;
   width: 100%;
-  /* background-size: 20px 20px; */
   color: #0f141e;
   width: 100%;
   height: 50px;
-  /* font-size: 1.125rem; */
   line-height: 50px;
   font-weight: 500;
-  color: #0f141e;
   cursor: pointer;
   padding: 1px 50px 0 20px;
   border: 1px solid #e7e8e9;
-  /* transition: all .2s cubic-bezier(.3,0,.5,1); */
 }
+
 .message-input {
   width: 100%;
-  height: auto; 
+  height: auto;
   resize: none;
-  padding: 10px;
-  font-size: 16px;
+  /* padding: 10px; */
+  font-size: 1.125rem;
+  font-weight: 500;
   outline: none;
   border: 1px solid #e7e8e9;
   border-width: 0 0 1px 0;
 }
-.color-grey{
-  color:#878a8f; 
+
+.color-grey {
+  color: #878a8f;
 }
- .message-section button{
+.message-section button {
   background-color: #fff;
   border: none;
   font-size: 1.425rem;
   line-height: 1.875rem;
   font-weight: 800;
- }
-
-  
-
-  
-
-
-
-
-
-
-
-
-
+}
+.submit-class {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
