@@ -1,88 +1,109 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faMinus} from '@fortawesome/free-solid-svg-icons';
-import style from "./Footer.module.css"
-import Link from 'next/link';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMinus } from "@fortawesome/free-solid-svg-icons";
+import style from "./Footer.module.css";
+import Link from "next/link";
 
 export default function Footer() {
-    return <div className={`${style.mainbox} row mobile`}>
-        <div className='col-sm-6 col-md-12 col-lg-4'>
-            <ContactInformation  text={"Feel free to reach out to me any time. I prefer to talk over email, especially since we may be a few time zones away."}
-            email={"E : alexandracampos658@gmail.com"} phone={"P: +506 62619656"}/>
-        </div>
-        <div className='col-sm-6 col-md-6 col-lg-2 offset-lg-1'>
-            <LatestProjects  text={"bla bla bla bla bl"}/>
-        </div>
-        <div className='col-sm-6 col-md-3 col-lg-2'>
-            <CurrentAvailability  text={"Immediate availability for work. I am delighted to discuss new opportunities"} />
-        </div>
-        <div className='col-sm-6  col-md-3 col-lg-2 offset-lg-1'>
-            <FollowMe  github={"Github"} linkedin={"LinkedIn"}/>
-        </div>
+  return (
+    <div className={`${style.mainbox} row footer`}>
+      <div className="col-sm-6 col-md-12 col-lg-4">
+        <ContactInformation
+          text={
+            "Feel free to reach out to me any time. I prefer to talk over email, especially since we may be a few time zones away."
+          }
+          email={"E : alexandracampos658@gmail.com"}
+          phone={"P: +506 62619656"}
+        />
+      </div>
+      <div className="col-sm-6 col-md-6 col-lg-2 offset-lg-1">
+        <LatestProjects text={"bla bla bla bla bl"} />
+      </div>
+      <div className="col-sm-6 col-md-3 col-lg-2">
+        <CurrentAvailability
+          text={
+            "Immediate availability for work. I am delighted to discuss new opportunities"
+          }
+        />
+      </div>
+      <div className="col-sm-6  col-md-3 col-lg-2 offset-lg-1">
+        <FollowMe github={"Github"} linkedin={"LinkedIn"} />
+      </div>
     </div>
+  );
 }
 
-
-function ContactInformation({text,email,phone}){
-return <div>
-   <h3 className={style.h3}>Contact <br className='d-none d-md-inline'/>Information
-       <span className='ms-1'>
-       <FontAwesomeIcon icon={faMinus} />   
-       </span>
-   </h3>
-   <p>{text}</p>
-   <p>{email}<br/>{phone}</p>   
-</div>
-}
-
-
-     
-function LatestProjects({text}){
-return <div>
-   <h3 className={style.h3}>Latest <br className='d-none d-md-inline'/>Projects
-       <span className='ms-1'>
-       <FontAwesomeIcon icon={faMinus} />   
-       </span>
-   </h3>
-   <Link href={"https://github.com/lexie70"}>
-       <li className={style.li}>{text}</li>  
-   </Link>
-</div>
-}
-
-
-
-function CurrentAvailability({text}){
-    return <div>
-         <h3  className={style.h3}>Current <br className='d-none d-md-inline'/>Availability
-        <span className='ms-1'>
-        <FontAwesomeIcon icon={faMinus} />   
+function ContactInformation({ text, email, phone }) {
+  return (
+    <div>
+      <h3 className={style.h3}>
+        Contact <br className="d-none d-md-inline" />
+        Information
+        <span className="ms-1">
+          <FontAwesomeIcon icon={faMinus} />
         </span>
-    </h3>
-    <p>{text}</p>  
-   </div>
+      </h3>
+      <p>{text}</p>
+      <p>
+        {email}
+        <br />
+        {phone}
+      </p>
+    </div>
+  );
 }
 
-
-function FollowMe({github,linkedin}){
-    return <div>
-         <h3  className={style.h3}>Follow <br className='d-none d-md-inline'/>Me On
-        <span className='ms-1'>
-        <FontAwesomeIcon icon={faMinus} />   
+function LatestProjects({ text }) {
+  return (
+    <div>
+      <h3 className={style.h3}>
+        Latest <br className="d-none d-md-inline" />
+        Projects
+        <span className="ms-1">
+          <FontAwesomeIcon icon={faMinus} />
         </span>
-    </h3>
-        <Link href={"https://github.com/lexie70"}>
-            <li className={style.li}>{github}</li>  
-        </Link>
-        <Link href={"https://www.linkedin.com/in/alexandra-campos-carrillo-92422a26a/"}>
-            <li className={style.li}>{linkedin}</li>  
-        </Link>
-   </div>
+      </h3>
+      <Link href={"https://github.com/lexie70"}>
+        <li className={style.li}>{text}</li>
+      </Link>
+    </div>
+  );
 }
-    
-    
 
+function CurrentAvailability({ text }) {
+  return (
+    <div>
+      <h3 className={style.h3}>
+        Current <br className="d-none d-md-inline" />
+        Availability
+        <span className="ms-1">
+          <FontAwesomeIcon icon={faMinus} />
+        </span>
+      </h3>
+      <p>{text}</p>
+    </div>
+  );
+}
 
-
-        
-
-
+function FollowMe({ github, linkedin }) {
+  return (
+    <div>
+      <h3 className={style.h3}>
+        Follow <br className="d-none d-md-inline" />
+        Me On
+        <span className="ms-1">
+          <FontAwesomeIcon icon={faMinus} />
+        </span>
+      </h3>
+      <Link href={"https://github.com/lexie70"}>
+        <li className={style.li}>{github}</li>
+      </Link>
+      <Link
+        href={
+          "https://www.linkedin.com/in/alexandra-campos-carrillo-92422a26a/"
+        }
+      >
+        <li className={style.li}>{linkedin}</li>
+      </Link>
+    </div>
+  );
+}
