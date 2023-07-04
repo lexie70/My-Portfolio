@@ -1,32 +1,30 @@
 TO DO
 
 1-Terminar page/route together (tiempo estimado:5 horas)
-    <!-- a-trabajar en el diseno para que sea mobile first  -->
-    b-trabajar en las posiciones y funcionalidades de los inputs(controlled components)
-    c-enviar un form a mi correo al clickear el boton submit
-    d-Trabajar media queries para tablet/desktop
-    
+<!-- a-trabajar en el diseno para que sea mobile first  -->
+b-trabajar en las posiciones y funcionalidades de los inputs(controlled components)
+<!-- c-enviar un form a mi correo al clickear el boton submit -->
+d-Trabajar media queries para tablet/desktop
+
 2-Sincronizar el deployed con el local host que sean iguales(tiempo estimado: 3 horas)
 
-
 3-Crear seccion projects y crear todos los projects (tiempo estimado:3-4 horas)
-    a-Crear componente projects que sea reutilizable y crear los props
- 
-    
+a-Crear componente projects que sea reutilizable y crear los props
+
 4-Terminar page/route about(tiempo estimado:4-5 horas)
-    a-revisar el page about y porque no se acomoda el footer en vista tablet o desktop
-    b- montar las fotos en el carousel
-    NOTA: todas las fotos deben tener el  mismo height y weight
-    
+a-revisar el page about y porque no se acomoda el footer en vista tablet o desktop
+b- montar las fotos en el carousel
+NOTA: todas las fotos deben tener el mismo height y weight
+
 5-Clickear menu (tiempo estimado:2 horas)
-    a-Desplegar una vista con las opciones 
+a-Desplegar una vista con las opciones
 
 6-Portfolio/Home (tiempo estimado:1 horas)
-    a-Cambiar fotos por las del proyecto en cuestion
-    b- Al clickear redirigir al proyecto en cuestion
+a-Cambiar fotos por las del proyecto en cuestion
+b- Al clickear redirigir al proyecto en cuestion
 
 7-Footer (tiempo estimado:30min)
-    a- agregar proyectos y redirigir
+a- agregar proyectos y redirigir
 
 8-Foto del home (tiempo estimado: 2-3 horas)
 
@@ -36,48 +34,6 @@ TO DO
 
 TOTAL TIME: 25 HORAS
 TOTAL TIME w animations : 37 HORAS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
