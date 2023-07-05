@@ -33,6 +33,12 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Libre+Baskerville&display=swap"
           rel="stylesheet"
         />
+        <link
+          rel="preload"
+          href="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+          as="script"
+          crossorigin="anonymous"
+        />
       </head>
       <body>
         <Navbar />
@@ -50,8 +56,9 @@ export default function RootLayout({ children }) {
           src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
           crossorigin="anonymous"
         ></script>
+
         <script
-          noModule
+          nomodule
           src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
           crossorigin="anonymous"
         ></script>
