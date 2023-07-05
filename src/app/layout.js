@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 export default function RootLayout({ children }) {
   return (
-    <html>
+    <html suppressHydrationWarning={true}>
       <head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <title>Alexandra's Portfolio</title>
