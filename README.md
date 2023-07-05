@@ -5,8 +5,7 @@ TO DO
 <!-- a-trabajar en el diseno para que sea mobile first  -->
 <!-- b-trabajar en las posiciones y funcionalidades de los inputs(controlled components) -->
 <!-- c-enviar un form a mi correo al clickear el boton submit -->
-
-d-Trabajar media queries para tablet/desktop
+<!-- d-Trabajar media queries para tablet/desktop -->
 
 2-Sincronizar el deployed con el local host que sean iguales(tiempo estimado: 3 horas)
 

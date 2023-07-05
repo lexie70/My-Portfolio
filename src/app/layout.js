@@ -53,6 +53,7 @@ export default function RootLayout({ children }) {
         <script
           noModule
           src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+          crossorigin="anonymous"
         ></script>
       </body>
     </html>
