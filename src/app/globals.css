@@ -89,7 +89,6 @@ p {
 
 .card-componet {
   width: min(100%, 500px);
-  /* background-color: pink; */
   height: 500px;
   border: #6c757d 1px solid;
   border-radius: 10px;
@@ -114,12 +113,10 @@ p {
 
 .w-4 {
   width: 4%;
-  /* background-color: black; */
 }
 
 .cards-father {
   height: 85em;
-  /* background-color: aqua; */
 }
 
 .overflow img {
@@ -136,6 +133,110 @@ p {
 .card-project-container {
   justify-content: center;
   margin: 0 auto;
+}
+
+/* read about me classes */
+
+.h3class-about {
+  color: #878a8f;
+  font-family: "Helvetica Now Display Light" !important;
+  font-size: 1.375rem;
+}
+
+.margin-separation {
+  margin-top: 100px;
+}
+
+h3 strong {
+  color: #878a8f;
+}
+
+.linkedin {
+  color: #878a8f;
+  border-bottom: 1px solid;
+  font-weight: lighter;
+  font-family: "Now Display Light";
+}
+
+.linkedin:hover {
+  color: #878a8f;
+  border-bottom: none !important;
+}
+
+/* contact classes */
+
+.crmap-size {
+  > img {
+    width: 100%;
+    height: 310px;
+  }
+}
+.input-container input {
+  background: #fff;
+  width: 100%;
+  height: 45px;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  font-weight: 500;
+  color: #000000;
+  padding: 8px 0 6px 0;
+  border: 1px solid #e7e8e9;
+  border-width: 0 0 1px 0;
+  margin-bottom: 40px;
+}
+.input-container label {
+  color: #878a8f;
+}
+
+.input-container input:focus {
+  outline: none;
+}
+::placeholder {
+  color: #000000;
+}
+select {
+  background: #fff;
+  width: 100%;
+  color: #0f141e;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 1px 50px 0 20px;
+  border: 1px solid #e7e8e9;
+}
+
+.message-input {
+  width: 100%;
+  height: auto;
+  resize: none;
+  /* padding: 10px; */
+  font-size: 1.125rem;
+  font-weight: 500;
+  outline: none;
+  border: 1px solid #e7e8e9;
+  border-width: 0 0 1px 0;
+}
+
+.got-a-project {
+  color: #878a8f;
+}
+.message-section button {
+  background-color: #fff;
+  border: none;
+  font-size: 1.425rem;
+  line-height: 1.875rem;
+  font-weight: 800;
+}
+.submit-class {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.footer {
+  position: relative;
+  top: 250px;
+  /* background-color: red; */
 }
 
 /* MEDIA QUERIES START HERE */
@@ -199,17 +300,20 @@ p {
 }
 
 @media (min-width: 950px) {
-  .large-screen {
-    position: relative;
-    top: 150px;
-  }
-
   .centering {
     margin-bottom: 80px;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .large-screen {
+    position: relative;
+    top: 150px;
+  }
+  .card-h2 {
+    font-size: 1.5rem;
   }
 }
 
@@ -228,11 +332,6 @@ p {
     line-height: 4.0625rem;
     padding-top: 5px;
     padding-bottom: 5px;
-  }
-
-  .large-screen {
-    position: relative;
-    top: 150px;
   }
 
   .mainBox-about {
@@ -262,109 +361,9 @@ p {
     margin: 0 auto;
   }
 }
-
-/* read about me classes */
-
-.h3class-about {
-  color: #878a8f;
-  font-family: "Helvetica Now Display Light" !important;
-  font-size: 1.375rem;
-}
-
-.margin-separation {
-  margin-top: 100px;
-}
-
-h3 strong {
-  color: #878a8f;
-}
-
-.linkedin {
-  color: #878a8f;
-  border-bottom: 1px solid;
-  font-weight: lighter;
-  font-family: "Now Display Light";
-}
-
-.linkedin:hover {
-  color: #878a8f;
-  border-bottom: none !important;
-}
-
-/* contact classes */
-
-.crmap-size {
-  > img {
-    width: 100%;
-    height: 310px;
+@media screen and (min-width: 765px) and (max-width: 950px) {
+  .large-screen {
+    position: relative;
+    top: 250px;
   }
-}
-.input-container input {
-  background: #fff;
-  width: 100%;
-  height: 45px;
-  font-size: 1.125rem;
-  line-height: 1.875rem;
-  font-weight: 500;
-  color: #000000;
-  padding: 8px 0 6px 0;
-  border: 1px solid #e7e8e9;
-  border-width: 0 0 1px 0;
-  margin-bottom: 40px;
-  /* background-color:pink; */
-}
-.input-container label {
-  color: #878a8f;
-}
-
-.input-container input:focus {
-  outline: none;
-  /* background-color: aqua; */
-}
-::placeholder {
-  color: #000000;
-}
-select {
-  background: #fff;
-  width: 100%;
-  color: #0f141e;
-  width: 100%;
-  height: 50px;
-  line-height: 50px;
-  font-weight: 500;
-  cursor: pointer;
-  padding: 1px 50px 0 20px;
-  border: 1px solid #e7e8e9;
-}
-
-.message-input {
-  width: 100%;
-  height: auto;
-  resize: none;
-  /* padding: 10px; */
-  font-size: 1.125rem;
-  font-weight: 500;
-  outline: none;
-  border: 1px solid #e7e8e9;
-  border-width: 0 0 1px 0;
-}
-
-.got-a-project {
-  color: #878a8f;
-}
-.message-section button {
-  background-color: #fff;
-  border: none;
-  font-size: 1.425rem;
-  line-height: 1.875rem;
-  font-weight: 800;
-}
-.submit-class {
-  margin-top: 50px;
-  margin-bottom: 60px;
-}
-.footer {
-  position: relative;
-  top: 250px;
-  /* background-color: red; */
 }

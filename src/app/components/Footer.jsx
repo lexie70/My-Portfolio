@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className={`${style.mainbox} row footer`}>
+    <div className={`${style.mainbox} row mobile large-screen`}>
       <div className="col-sm-6 col-md-12 col-lg-4">
         <ContactInformation
           text={

@@ -72,7 +72,7 @@ function Card({ title, subtitle }) {
         <div className="">
           <Image src={flores} alt="Picture of the author" />
         </div>
-        <h2 className="ms-5">{subtitle}</h2>
+        <h2 className="ms-5 card-h2">{subtitle}</h2>
       </div>
     </>
   );
