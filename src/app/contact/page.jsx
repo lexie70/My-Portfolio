@@ -8,7 +8,7 @@ import { useState } from "react";
 export default function About() {
   return (
     <>
-      <div className="mobile large-screen">
+      <div className="mobile ">
         <div className="crmap-size">
           <Image src={MapaCR} alt="Costa Rica's map" />
         </div>

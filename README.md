@@ -13,7 +13,9 @@ TO DO
 a-Crear componente projects que sea reutilizable y crear los props
 
 4-Terminar page/route about(tiempo estimado:4-5 horas)
-a-revisar el page about y porque no se acomoda el footer en vista tablet o desktop
+
+<!-- a-revisar el page about y porque no se acomoda el footer en vista tablet o desktop -->
+
 b- montar las fotos en el carousel
 NOTA: todas las fotos deben tener el mismo height y weight
 
@@ -22,14 +24,15 @@ a-Desplegar una vista con las opciones
 
 6-Portfolio/Home (tiempo estimado:1 horas)
 a-Cambiar fotos por las del proyecto en cuestion
-b- Al clickear redirigir al proyecto en cuestion
 
-7-Footer (tiempo estimado:30min)
-a- agregar proyectos y redirigir
+<!-- b- Al clickear redirigir al proyecto en cuestion -->
+
+<!-- 7-Footer (tiempo estimado:30min)
+a- agregar proyectos y redirigir -->
 
 8-Foto del home (tiempo estimado: 2-3 horas)
 
-9-Favicon (tiempo estimado:1 horas)
+<!-- 9-Favicon (tiempo estimado:1 horas) -->
 
 10- Animaciones -> scroll magic (tiempo estimado: 12)
 

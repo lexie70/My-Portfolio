@@ -16,7 +16,12 @@ export default function Footer() {
         />
       </div>
       <div className="col-sm-6 col-md-6 col-lg-2 offset-lg-1">
-        <LatestProjects text={"bla bla bla bla bl"} />
+        <LatestProjects
+          firstProj={"Liz Shoes"}
+          secondProj={"Star Wars"}
+          thirdProj={"eCom Landing Page"}
+          fourthProj={"Twitter Clone"}
+        />
       </div>
       <div className="col-sm-6 col-md-3 col-lg-2">
         <CurrentAvailability
@@ -52,7 +57,7 @@ function ContactInformation({ text, email, phone }) {
   );
 }
 
-function LatestProjects({ text }) {
+function LatestProjects({ firstProj, secondProj, thirdProj, fourthProj }) {
   return (
     <div>
       <h3 className={style.h3}>
@@ -62,8 +67,17 @@ function LatestProjects({ text }) {
           <FontAwesomeIcon icon={faMinus} />
         </span>
       </h3>
-      <Link href={"https://github.com/lexie70"}>
-        <li className={style.li}>{text}</li>
+      <Link href={"/project/liz-shoes"}>
+        <li className={style.li}>{firstProj}</li>
+      </Link>
+      <Link href={"/project/star-wars"}>
+        <li className={style.li}>{secondProj}</li>
+      </Link>
+      <Link href={"/project/liz-shoes-landing"}>
+        <li className={style.li}>{thirdProj}</li>
+      </Link>
+      <Link href={"/project/twitter-clone"}>
+        <li className={style.li}>{fourthProj}</li>
       </Link>
     </div>
   );
