@@ -3,7 +3,7 @@ import NeedADeveloper from "../components/NeedADeveloper";
 
 export default function About() {
   return (
-    <div className="mobile-about large-screen mainBox-about">
+    <div className="mobile-about mainBox-about">
       <h5 className="mb-4">A FEW WORDS ABOUT ME</h5>
       <h1>
         I'm Alexandra Campos, a multidisciplinary developer who focuses on
