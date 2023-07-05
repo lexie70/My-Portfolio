@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
           rel="preload"
           href="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
           as="script"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
       </head>
       <body>
@@ -54,13 +54,13 @@ export default function RootLayout({ children }) {
         <script
           type="module"
           src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         ></script>
 
         <script
-          nomodule
+          noModule
           src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         ></script>
       </body>
     </html>
