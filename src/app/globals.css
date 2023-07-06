@@ -244,9 +244,29 @@ select {
   margin-top: 50px;
   margin-bottom: 60px;
 }
-.footer {
-  position: relative;
-  top: 250px;
+
+/* project styling */
+
+.project-section p {
+  font-size: 1.375rem;
+  color: black;
+}
+.project-section div {
+  margin-bottom: 30px;
+}
+
+.project-section .paragraph-section p {
+  color: #878a8f;
+}
+.image-section {
+  > img {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+  > img:first-child {
+    margin-top: 30px;
+  }
 }
 
 /* MEDIA QUERIES START HERE */
