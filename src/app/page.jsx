@@ -48,28 +48,41 @@ function Portfolio() {
       <h1 className="mb-4">Portfolio</h1>
       <div className="card-project-container container row">
         <div className="col-sm-12 col-md-5 mb-4">
-          <Card title={"liz-shoes"} subtitle={"Project Description #1"} />
-        </div>
-        <div className="col-sm-12 col-md-5 mb-4">
-          <Card title={"star-wars"} subtitle={"Project Description #2"} />
+          <Card
+            link={"liz-shoes"}
+            title={"liz shoes"}
+            subtitle={"Project Description #1"}
+          />
         </div>
         <div className="col-sm-12 col-md-5 mb-4">
           <Card
-            title={"liz-shoes-landing"}
+            link={"star-wars"}
+            title={"star wars"}
+            subtitle={"Project Description #2"}
+          />
+        </div>
+        <div className="col-sm-12 col-md-5 mb-4">
+          <Card
+            link={"liz-shoes-landing"}
+            title={"liz shoes landing"}
             subtitle={"Project Description #3"}
           />
         </div>
         <div className="col-sm-12 col-md-5 mb-4">
-          <Card title={"twitter-clone"} subtitle={"Project Description #4"} />
+          <Card
+            link={"twitter-clone"}
+            title={"twitter clone"}
+            subtitle={"Project Description #4"}
+          />
         </div>
       </div>
     </div>
   );
 }
 
-function Card({ title, subtitle }) {
+function Card({ link, title, subtitle }) {
   return (
-    <Link href={`/project/${title}`}>
+    <Link href={`/project/${link}`}>
       <div className="card-component">
         <h5 className="mt-5 ms-5">{title}</h5>
         <div className="">

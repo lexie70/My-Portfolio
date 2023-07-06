@@ -137,9 +137,8 @@ p {
 }
 
 .logo:hover {
-  background-color: yellow;
   color: #a4abb0;
-  transition: all 10s;
+  transition: color 1s;
 }
 
 /* Portfolio component styles */

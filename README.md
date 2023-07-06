@@ -16,16 +16,20 @@ a-Crear componente projects que sea reutilizable y crear los props
 
 <!-- a-revisar el page about y porque no se acomoda el footer en vista tablet o desktop -->
 
+===============================================================
 b- montar las fotos en el carousel
 NOTA: todas las fotos deben tener el mismo height y weight
+===============================================================
 
 5-Clickear menu (tiempo estimado:2 horas)
 a-Desplegar una vista con las opciones
 
+===============================================================
 6-Portfolio/Home (tiempo estimado:1 horas)
 a-Cambiar fotos por las del proyecto en cuestion
+===============================================================
 
-<!-- b- Al clickear redirigir al proyecto en cuestion -->
+<!-- hhhhhgyb- Al clickear redirigir al proyecto en cuestion -->
 
 <!-- 7-Footer (tiempo estimado:30min)
 a- agregar proyectos y redirigir -->

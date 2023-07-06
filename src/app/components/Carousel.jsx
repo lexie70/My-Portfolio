@@ -1,5 +1,9 @@
 import Image from "next/image";
 import flores from "../../../public/img/flores.jpg";
+import arbol from "../../../public/img/arbol.jpg";
+import bocas from "../../../public/img/bocas2.jpg";
+import amarillas from "../../../public/img/amarillas.jpg";
+import mexico from "../../../public/img/mexico.jpg";
 
 export default function Carousel() {
   return (
@@ -37,7 +41,7 @@ export default function Carousel() {
           <div className="carousel-item active" data-bs-interval="10000">
             <div className="d-flex justify-content-center">
               <Image
-                src={flores}
+                src={bocas}
                 className="d-block w-100"
                 alt="..."
                 width={500}
@@ -50,7 +54,7 @@ export default function Carousel() {
           <div className="carousel-item">
             <div className="d-flex justify-content-center">
               <Image
-                src={flores}
+                src={amarillas}
                 className="d-block w-100"
                 alt="..."
                 width={500}
@@ -63,7 +67,7 @@ export default function Carousel() {
           <div className="carousel-item bg-dark">
             <div className="d-flex justify-content-center">
               <Image
-                src={flores}
+                src={mexico}
                 className="d-block w-100"
                 alt="..."
                 width={901}
