@@ -12,14 +12,12 @@ TO DO
 3-Crear seccion projects y crear todos los projects (tiempo estimado:3-4 horas)
 a-Crear componente projects que sea reutilizable y crear los props
 
-4-Terminar page/route about(tiempo estimado:4-5 horas)
+<!-- 4-Terminar page/route about(tiempo estimado:4-5 horas) -->
 
 <!-- a-revisar el page about y porque no se acomoda el footer en vista tablet o desktop -->
 
-===============================================================
-b- montar las fotos en el carousel
-NOTA: todas las fotos deben tener el mismo height y weight
-===============================================================
+<!-- b- montar las fotos en el carousel
+NOTA: todas las fotos deben tener el mismo height y weight -->
 
 5-Clickear menu (tiempo estimado:2 horas)
 a-Desplegar una vista con las opciones
