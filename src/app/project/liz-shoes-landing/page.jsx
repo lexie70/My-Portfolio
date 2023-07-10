@@ -1,7 +1,8 @@
-export default function About() {
+import Projects from "@/app/components/Projects";
+export default function LizShoesLanding() {
   return (
     <div className="mobile ">
-      <h1>im project view</h1>
+      <Projects />
     </div>
   );
 }

@@ -6,19 +6,13 @@ export default function Projects(props) {
     <>
       <div className="project-section">
         <div>
-          <h5>case study</h5>
+          <h5>Project</h5>
           <h1>{props.title}</h1>
         </div>
         <div>
           <h5>my role</h5>
           <p>
             <b>{props.role}</b>
-          </p>
-        </div>
-        <div>
-          <h5>client</h5>
-          <p>
-            <b>{props.client}</b>
           </p>
         </div>
         <div>

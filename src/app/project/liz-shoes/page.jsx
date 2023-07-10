@@ -2,6 +2,7 @@ import Carousel from "../../components/Carousel";
 import NeedADeveloper from "../../components/NeedADeveloper";
 import Projects from "@/app/components/Projects";
 import NextProject from "@/app/components/NextProject";
+import Link from "next/link";
 
 export default function LizShoes() {
   return (
@@ -9,7 +10,6 @@ export default function LizShoes() {
       <Projects
         title={"Liz Shoes"}
         role={"Frontend Developer"}
-        client={"Ecommerce store"}
         year={"2021"}
         p1={
           "During my time at Liz Shoes, I had the opportunity to work on an innovative e-commerce solution designed for internal operations. The project focused on providing the company with an efficient and streamlined system for managing logistics, inventory, and other related tasks."
@@ -27,7 +27,12 @@ export default function LizShoes() {
           "Working on this e-commerce project has provided me with valuable experience and skills in front-end development. From building React components and implementing complex functionality to collaborating with a diverse team, I have gained a deep understanding of the intricacies involved in developing an efficient and user-centric e-commerce platform. I am proud of the contributions I made to the project, and I look forward to applying my expertise and knowledge to future endeavors in the field of web development"
         }
       />
-      <NextProject name={"Star Wars"} description={"aca"} />
+
+      <NextProject
+        name={"Star Wars"}
+        description={"Responsive Info Site - Complete Website "}
+        link={"star-wars"}
+      />
     </div>
   );
 }
