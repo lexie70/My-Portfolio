@@ -9,8 +9,8 @@ TO DO
 
 <!-- 2-Sincronizar el deployed con el local host que sean iguales(tiempo estimado: 3 horas) -->
 
-3-Crear seccion projects y crear todos los projects (tiempo estimado:3-4 horas)
-a-Crear componente projects que sea reutilizable y crear los props
+<!-- 3-Crear seccion projects y crear todos los projects (tiempo estimado:3-4 horas) -->
+<!-- a-Crear componente projects que sea reutilizable y crear los props -->
 
 <!-- 4-Terminar page/route about(tiempo estimado:4-5 horas) -->
 
