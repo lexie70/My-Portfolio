@@ -2,7 +2,7 @@ import Projects from "@/app/components/Projects";
 import NextProject from "@/app/components/NextProject";
 export default function StarWars() {
   return (
-    <div className="mobile ">
+    <div className="mobile">
       <div>
         <Projects
           title={

@@ -269,6 +269,14 @@ select {
   }
 }
 
+/* nextProject component classes */
+.main-div {
+  margin-top: 50px;
+}
+.horizon-top {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
 /* MEDIA QUERIES START HERE */
 
 @media (max-width: 950px) {
@@ -389,6 +397,15 @@ select {
   .crmap-size {
     width: 85%;
     margin: 0 auto;
+  }
+  .main-div {
+    margin-top: 50px;
+    /* width: 40%;
+    margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
   }
 }
 @media screen and (min-width: 765px) and (max-width: 950px) {
