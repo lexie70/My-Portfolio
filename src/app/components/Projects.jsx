@@ -27,6 +27,9 @@ export default function Projects(props) {
           <p>{props.p2}</p>
           <p>{props.p3}</p>
           <p>{props.p4}</p>
+          <p>{props.p5}</p>
+          <p>{props.p6}</p>
+          <p>{props.p7}</p>
         </div>
         {/* image section */}
         <div className="image-section">

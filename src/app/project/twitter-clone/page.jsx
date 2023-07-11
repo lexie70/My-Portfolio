@@ -1,7 +1,12 @@
-export default function About() {
+import Projects from "@/app/components/Projects";
+export default function TwitterClone() {
   return (
     <div className="mobile ">
-      <h1>im project view</h1>
+      <Projects
+        title={"Twitter Clone"}
+        role={"UX / UI Website Design"}
+        year={"2022"}
+      />
     </div>
   );
 }
