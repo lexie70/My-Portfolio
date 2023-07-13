@@ -1,5 +1,4 @@
 import Image from "next/image";
-import image from "../../../public/img/flor.jpg";
 
 export default function Projects(props) {
   return (
@@ -37,28 +36,28 @@ export default function Projects(props) {
         <div className="image-section">
           <Image
             src={props.image1}
-            alt="Signup"
+            alt="Signup form"
             height={500}
             width={500}
             className=""
           />
           <Image
             src={props.image2}
-            alt="Login"
+            alt="Login form"
             height={500}
             width={500}
             className=""
           />
           <Image
             src={props.image3}
-            alt="Add order"
+            alt="Order addition form"
             height={500}
             width={500}
             className=""
           />
           <Image
             src={props.image4}
-            alt="Add plant"
+            alt="Plant addition form"
             height={500}
             width={500}
             className=""

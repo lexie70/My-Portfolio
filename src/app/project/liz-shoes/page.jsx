@@ -1,5 +1,6 @@
 import Projects from "@/app/components/Projects";
 import NextProject from "@/app/components/NextProject";
+import Image from "next/image";
 import signup from "../../../../public/img/singup.png";
 import login from "../../../../public/img/Login.png";
 import addorder from "../../../../public/img/addorder.png";

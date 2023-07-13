@@ -1,5 +1,9 @@
 import Projects from "@/app/components/Projects";
 import NextProject from "@/app/components/NextProject";
+import characters from "../../../../public/img/Characters.PNG";
+import ships from "../../../../public/img/Starships.PNG";
+import hoth from "../../../../public/img/readhoth2.png";
+import luke from "../../../../public/img/learnmoreluke.png";
 export default function StarWars() {
   return (
     <div className="mobile">
@@ -31,6 +35,10 @@ export default function StarWars() {
           p7={
             "Overall, the website is a well-crafted and technically advanced project that utilizes a variety of modern web development tools and techniques to deliver a rich and engaging experience for users."
           }
+          image1={characters}
+          image2={ships}
+          image3={hoth}
+          image4={luke}
         />
       </div>
       <NextProject

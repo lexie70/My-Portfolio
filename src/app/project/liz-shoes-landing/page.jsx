@@ -1,5 +1,9 @@
 import Projects from "@/app/components/Projects";
 import NextProject from "@/app/components/NextProject";
+import botas from "../../../../public/img/landingbotas.PNG";
+import deportivo from "../../../../public/img/landingdeportivos.PNG";
+import tacos from "../../../../public/img/landingtacos.PNG";
+import orto from "../../../../public/img/landingortopedicos.PNG";
 export default function LizShoesLanding() {
   return (
     <>
@@ -21,6 +25,10 @@ export default function LizShoesLanding() {
             p4={
               "Overall, our ecommerce shoe store landing page stands out with its visually appealing design, enhanced by the mesmerizing parallax effect. Leveraging the power of CSS, HTML, and JavaScript, we create a seamless and immersive experience that captivates our visitors and showcases the latest shoe collections in an engaging and elegant manner."
             }
+            image1={botas}
+            image2={deportivo}
+            image3={tacos}
+            image4={orto}
           />
         </div>
         <div>
