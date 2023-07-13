@@ -1,8 +1,9 @@
-import Carousel from "../../components/Carousel";
-import NeedADeveloper from "../../components/NeedADeveloper";
 import Projects from "@/app/components/Projects";
 import NextProject from "@/app/components/NextProject";
-import Link from "next/link";
+import signup from "../../../../public/img/singup.png";
+import login from "../../../../public/img/Login.png";
+import addorder from "../../../../public/img/addorder.png";
+import responsive from "../../../../public/img/addplant.PNG";
 
 export default function LizShoes() {
   return (
@@ -26,6 +27,10 @@ export default function LizShoes() {
         p5={
           "Working on this e-commerce project has provided me with valuable experience and skills in front-end development. From building React components and implementing complex functionality to collaborating with a diverse team, I have gained a deep understanding of the intricacies involved in developing an efficient and user-centric e-commerce platform. I am proud of the contributions I made to the project, and I look forward to applying my expertise and knowledge to future endeavors in the field of web development"
         }
+        image1={signup}
+        image2={login}
+        image3={addorder}
+        image4={responsive}
       />
 
       <NextProject

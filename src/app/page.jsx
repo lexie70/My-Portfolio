@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
 import flores from "../../public/img/flores2.jpg";
+import starwars1 from "../../public/img/starwars1.png";
+import menu from "../../public/img/menu.PNG";
+import landing from "../../public/img/Capture.png";
 import NeedADeveloper from "./components/NeedADeveloper";
 
 export default function Home() {
@@ -52,6 +55,7 @@ function Portfolio() {
             link={"liz-shoes"}
             title={"liz shoes"}
             subtitle={"Project Description #1"}
+            image={menu}
           />
         </div>
         <div className="col-sm-12 col-md-5 mb-4">
@@ -59,6 +63,7 @@ function Portfolio() {
             link={"star-wars"}
             title={"star wars"}
             subtitle={"Project Description #2"}
+            image={starwars1}
           />
         </div>
         <div className="col-sm-12 col-md-5 mb-4">
@@ -66,6 +71,7 @@ function Portfolio() {
             link={"liz-shoes-landing"}
             title={"liz shoes landing"}
             subtitle={"Project Description #3"}
+            image={landing}
           />
         </div>
         <div className="col-sm-12 col-md-5 mb-4">
@@ -73,6 +79,7 @@ function Portfolio() {
             link={"twitter-clone"}
             title={"twitter clone"}
             subtitle={"Project Description #4"}
+            image={flores}
           />
         </div>
       </div>
@@ -80,13 +87,13 @@ function Portfolio() {
   );
 }
 
-function Card({ link, title, subtitle }) {
+function Card({ link, title, subtitle, image }) {
   return (
     <Link href={`/project/${link}`}>
       <div className="card-component">
         <h5 className="mt-5 ms-5">{title}</h5>
         <div className="">
-          <Image src={flores} alt="Picture of the author" />
+          <Image src={image} alt="Picture of the author" />
         </div>
         <h2 className="ms-5 card-h2">{subtitle}</h2>
       </div>

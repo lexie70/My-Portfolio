@@ -35,10 +35,10 @@ export default function Projects(props) {
         </div>
         {/* image section */}
         <div className="image-section">
-          <Image src={image} height={500} width={500} className="" />
-          <Image src={image} height={500} width={500} className="" />
-          <Image src={image} height={500} width={500} className="" />
-          <Image src={image} height={500} width={500} className="" />
+          <Image src={props.image1} height={500} width={500} className="" />
+          <Image src={props.image2} height={500} width={500} className="" />
+          <Image src={props.image3} height={500} width={500} className="" />
+          <Image src={props.image4} height={500} width={500} className="" />
         </div>
       </div>
     </>
