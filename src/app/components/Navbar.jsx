@@ -1,11 +1,18 @@
+"use client";
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faMinus } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Navbar.module.css";
 import Link from "next/link";
 import logo from "../../../public/img/favicon-transparent.png";
 import Image from "next/image";
 
-export default function Navbar() {
+export default function Navbar({ setVisible, visible }) {
+  const [menuVisible, setMenuVisible] = useState(false);
+  const toggleMenu = () => {
+    setMenuVisible(!menuVisible);
+    setVisible(!visible);
+  };
   return (
     <>
       <section>
@@ -17,7 +24,12 @@ export default function Navbar() {
             </Link>
           </div>
           <div>
-            <h1 className={styles.bars}>
+            <h1
+              className={styles.bars}
+              onClick={() => {
+                toggleMenu();
+              }}
+            >
               MENU
               <span className="ms-1">
                 <FontAwesomeIcon icon={faBars} />
@@ -25,7 +37,36 @@ export default function Navbar() {
             </h1>
           </div>
         </nav>
+        {menuVisible && <Menu />}
       </section>
     </>
+  );
+}
+
+function Menu() {
+  return (
+    <div className={styles.menuMainDiv}>
+      <h5 className={styles.align}>menu</h5>
+      <ul className={styles.ul}>
+        <li>
+          <a>
+            {/* <FontAwesomeIcon icon={faMinus} className="me-1" /> */}
+            Projects
+          </a>
+        </li>
+        <li>
+          <a>
+            {/* <FontAwesomeIcon icon={faMinus} className="me-1" /> */}
+            About me
+          </a>
+        </li>
+        <li>
+          <a>
+            {/* <FontAwesomeIcon icon={faMinus} className="me-1" /> */}
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
   );
 }

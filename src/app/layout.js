@@ -1,10 +1,13 @@
+"use client";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { useState } from "react";
 
 export default function RootLayout({ children }) {
+  const [visibleMenu, setVisibleMenu] = useState(false);
   return (
     <html suppressHydrationWarning={true}>
       <head>
@@ -40,8 +43,8 @@ export default function RootLayout({ children }) {
           crossOrigin="anonymous"
         />
       </head>
-      <body>
-        <Navbar />
+      <body className={visibleMenu == true ? "active-menu" : "nonactive-menu"}>
+        <Navbar setVisible={setVisibleMenu} visible={visibleMenu} />
         <section className="large-screen">
           <div>{children}</div>
           <Footer />

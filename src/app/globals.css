@@ -10,6 +10,12 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
+.active-menu {
+  overflow: hidden !important;
+}
+.nonactive-menu {
+  overflow: scroll;
+}
 
 /* general styles for the general tags */
 

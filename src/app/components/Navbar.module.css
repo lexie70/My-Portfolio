@@ -1,18 +1,38 @@
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
-    padding-right: 40px;
-    position: fixed;
-    width: 100%;
-    z-index: 3;
-    /* background-color: black; */
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 40px;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  /* background-color: black; */
+}
 
-  .bars {
-    font-size: 20px;
-    /* background-color: red; */
-  }
+.bars {
+  font-size: 20px;
+  /* background-color: red; */
+}
 
- 
+.menuMainDiv {
+  background-color: aquamarine;
+  position: absolute;
+  top: 60px;
+  z-index: 9999;
+  color: #878a8f;
+  background-color: #0f141e;
+  height: 100%;
+  width: 100%;
+}
+.align {
+  display: flex;
+  justify-content: center;
+}
+.ul {
+  list-style: none;
+}
+/* ::selection {
+  background-color: #878a8f;
+  color: #fff;
+} */
