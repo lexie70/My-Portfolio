@@ -65,22 +65,13 @@ function Menu() {
       </div>
       <ul className={styles.ul}>
         <li>
-          <a>
-            {/* <FontAwesomeIcon icon={faMinus} className="me-1" /> */}
-            Projects
-          </a>
+          <a href="/projects">Projects</a>
         </li>
         <li>
-          <a>
-            {/* <FontAwesomeIcon icon={faMinus} className="me-1" /> */}
-            About me
-          </a>
+          <a href="/about">About me</a>
         </li>
         <li>
-          <a>
-            {/* <FontAwesomeIcon icon={faMinus} className="me-1" /> */}
-            Contact
-          </a>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
     </div>

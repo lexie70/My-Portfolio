@@ -20,7 +20,7 @@ export default function About() {
 
       <Carousel />
       <div className="row">
-        <div className="col-12 col-md-6">
+        <div className="col-12 col-md-6 mt-md-5 mb-md-5">
           <List
             title={"technologies i use"}
             list={[
@@ -39,7 +39,7 @@ export default function About() {
             ]}
           />
         </div>
-        <div className="col-12 col-md-6">
+        <div className="col-12 col-md-6 mt-md-5 mb-md-5">
           <List
             title={"Services I Offer"}
             list={[
@@ -82,7 +82,7 @@ function List({ title, list }) {
 function Experience() {
   return (
     <div>
-      <h5 className="margin-separation mb-3">experience</h5>
+      <h5 className="margin-separation mb-3 mt-3">experience</h5>
       <h1 className="mb-4">Over 3 Years Experience</h1>
       <h3 className="h3class-about">
         I’ve been lucky enough to establish relationships with amazing clients
