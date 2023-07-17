@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
           crossOrigin="anonymous"
         />
       </head>
-      <body className={visibleMenu == true ? "active-menu" : "nonactive-menu"}>
+      <body className={visibleMenu ? "active-menu" : "nonactive-menu"}>
         <Navbar setVisible={setVisibleMenu} visible={visibleMenu} />
         <section className="large-screen">
           <div>{children}</div>

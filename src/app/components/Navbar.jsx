@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faMinus } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Navbar.module.css";
 import Link from "next/link";
 import logo from "../../../public/img/favicon-transparent.png";
@@ -18,22 +18,36 @@ export default function Navbar({ setVisible, visible }) {
       <section>
         <nav className={styles.nav}>
           <div className="">
-            <Link href="/" className="link logo">
+            <Link
+              href="/"
+              className={menuVisible ? "link whitelogo" : "link blacklogo "}
+            >
               <Image src={logo} width={50} height={50} />
               Alexandra Campos
             </Link>
           </div>
           <div>
             <h1
-              className={styles.bars}
+              className={` ${menuVisible ? styles.nonbars : styles.bars}`}
               onClick={() => {
                 toggleMenu();
               }}
             >
-              MENU
-              <span className="ms-1">
-                <FontAwesomeIcon icon={faBars} />
-              </span>
+              {menuVisible ? (
+                <>
+                  CLOSE
+                  <span className="ms-1">
+                    <FontAwesomeIcon icon={faXmark} />
+                  </span>
+                </>
+              ) : (
+                <>
+                  MENU
+                  <span className="ms-1">
+                    <FontAwesomeIcon icon={faBars} />
+                  </span>
+                </>
+              )}
             </h1>
           </div>
         </nav>

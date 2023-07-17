@@ -12,6 +12,8 @@ body {
 }
 .active-menu {
   overflow: hidden !important;
+  background-color: #0f141e;
+  color: #878a8f;
 }
 .nonactive-menu {
   overflow: scroll;
@@ -138,8 +140,11 @@ p {
 }
 
 /* Navbar styling */
-.logo {
+.blacklogo {
   color: #0f141e;
+}
+.whitelogo {
+  color: #878a8f;
 }
 
 .logo:hover {
