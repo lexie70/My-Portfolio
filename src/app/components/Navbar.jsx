@@ -17,7 +17,7 @@ export default function Navbar({ setVisible, visible }) {
     <>
       <section>
         <nav className={styles.nav}>
-          <div className="">
+          <div>
             <Link
               href="/"
               className={menuVisible ? "link whitelogo" : "link blacklogo "}
