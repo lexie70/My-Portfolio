@@ -60,7 +60,9 @@ export default function Navbar({ setVisible, visible }) {
 function Menu() {
   return (
     <div className={styles.menuMainDiv}>
-      <h5 className={styles.align}>menu</h5>
+      <div className={styles.align}>
+        <h5>menu</h5>
+      </div>
       <ul className={styles.ul}>
         <li>
           <a>

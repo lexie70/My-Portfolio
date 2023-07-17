@@ -6,7 +6,7 @@
   padding-right: 40px;
   position: fixed;
   width: 100%;
-  z-index: 3;
+  z-index: 99999;
   /* background-color: black; */
 }
 
@@ -20,8 +20,7 @@
 }
 
 .menuMainDiv {
-  background-color: aquamarine;
-  position: absolute;
+  position: fixed;
   top: 60px;
   z-index: 9999;
   color: #878a8f;
@@ -36,8 +35,7 @@
 .ul {
   list-style: none;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-/* ::selection {
-  background-color: #878a8f;
-  color: #fff;
-} */
