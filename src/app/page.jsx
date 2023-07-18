@@ -4,7 +4,7 @@ import "./globals.css";
 import flores from "../../public/img/flores2.jpg";
 import starwars1 from "../../public/img/swstarwars1.png";
 import menu from "../../public/img/lizmenu.png";
-import landing from "../../public/img/landingortopedicos.png";
+import landing from "../../public/img/lizlogin.png";
 import NeedADeveloper from "./components/NeedADeveloper";
 
 export default function Home() {
