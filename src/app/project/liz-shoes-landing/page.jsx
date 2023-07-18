@@ -23,7 +23,7 @@ export default function LizShoesLanding() {
               "HTML plays a crucial role in structuring the content of the landing page. We utilize semantic HTML tags to provide meaning and structure, enhancing accessibility and search engine optimization. By organizing the content into sections and incorporating appropriate headings, paragraphs, and images, we create a seamless browsing experience that engages and informs our visitors."
             }
             p4={
-              "Overall, our ecommerce shoe store landing page stands out with its visually appealing design, enhanced by the mesmerizing parallax effect. Leveraging the power of CSS, HTML, and JavaScript, we create a seamless and immersive experience that captivates our visitors and showcases the latest shoe collections in an engaging and elegant manner."
+              "Our ecommerce shoe store landing page stands out with its visually appealing design, enhanced by the mesmerizing parallax effect. Leveraging the power of CSS, HTML, and JavaScript, we create a seamless and immersive experience that captivates our visitors and showcases the latest shoe collections in an engaging and elegant manner."
             }
             image1={botas}
             image2={deportivo}
