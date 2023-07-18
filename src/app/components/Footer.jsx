@@ -67,18 +67,20 @@ function LatestProjects({ firstProj, secondProj, thirdProj, fourthProj }) {
           <FontAwesomeIcon icon={faMinus} />
         </span>
       </h3>
-      <Link href={"/project/liz-shoes"}>
-        <li className={style.li}>{firstProj}</li>
-      </Link>
-      <Link href={"/project/star-wars"}>
-        <li className={style.li}>{secondProj}</li>
-      </Link>
-      <Link href={"/project/liz-shoes-landing"}>
-        <li className={style.li}>{thirdProj}</li>
-      </Link>
-      <Link href={"/project/twitter-clone"}>
-        <li className={style.li}>{fourthProj}</li>
-      </Link>
+      <div className="read-view">
+        <Link href={"/project/liz-shoes"}>
+          <li className={style.li}>{firstProj}</li>
+        </Link>
+        <Link href={"/project/star-wars"}>
+          <li className={style.li}>{secondProj}</li>
+        </Link>
+        <Link href={"/project/liz-shoes-landing"}>
+          <li className={style.li}>{thirdProj}</li>
+        </Link>
+        <Link href={"/project/twitter-clone"}>
+          <li className={style.li}>{fourthProj}</li>
+        </Link>
+      </div>
     </div>
   );
 }
@@ -108,16 +110,18 @@ function FollowMe({ github, linkedin }) {
           <FontAwesomeIcon icon={faMinus} />
         </span>
       </h3>
-      <Link href={"https://github.com/lexie70"}>
-        <li className={style.li}>{github}</li>
-      </Link>
-      <Link
-        href={
-          "https://www.linkedin.com/in/alexandra-campos-carrillo-92422a26a/"
-        }
-      >
-        <li className={style.li}>{linkedin}</li>
-      </Link>
+      <div className="read-view">
+        <Link href={"https://github.com/lexie70"}>
+          <li className={style.li}>{github}</li>
+        </Link>
+        <Link
+          href={
+            "https://www.linkedin.com/in/alexandra-campos-carrillo-92422a26a/"
+          }
+        >
+          <li className={style.li}>{linkedin}</li>
+        </Link>
+      </div>
     </div>
   );
 }
