@@ -48,8 +48,8 @@ h4 {
 }
 
 a {
-  color: #000000;
-  font-family: "Helvetica Now Display";
+  color: #000000 !important;
+  font-family: "Helvetica Now Display" !important;
   text-decoration: none;
   text-transform: capitalize;
 }
