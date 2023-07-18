@@ -10,7 +10,7 @@ export default function NeedADeveloper() {
         <div className="centering">
           <h5 className={style.need}>need a developer?</h5>
           <Link href="/contact">
-            <h1 className="text">
+            <h1 className="text read-view">
               <span>Let's work Together</span>
               <span>
                 <FontAwesomeIcon className="ms-1" icon={faArrowRight} />
