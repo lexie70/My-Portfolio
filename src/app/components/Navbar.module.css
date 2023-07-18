@@ -48,6 +48,7 @@
 .ul a {
   color: inherit; /* Usa el color definido en el contenedor ul */
   text-decoration: none;
+  color: #878a8f !important;
 }
 .ul a:hover {
   color: aliceblue !important;
