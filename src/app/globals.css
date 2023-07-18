@@ -321,6 +321,10 @@ select {
     padding-top: 2px;
     padding-bottom: 3px;
   }
+  .text span {
+    text-decoration: none;
+    color: #000000;
+  }
 
   .developer {
     display: none;
@@ -419,7 +423,8 @@ select {
     top: 250px;
   }
 }
-.color-link {
-  color: red;
+
+.read-view a {
+  color: #000000;
   text-decoration: none;
 }

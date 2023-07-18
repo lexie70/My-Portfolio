@@ -35,9 +35,11 @@ function Intro() {
             small teams and developed various responsive websites and SPAs and
             even had the chance to take part in a SAAS Project
           </p>
-          <Link href="/#portfolio">view projects</Link>
-          <span className="ms-1 me-1"> or </span>
-          <Link href="/about">read about me</Link>
+          <div className="read-view">
+            <Link href="/#portfolio">view projects</Link>
+            <span className="ms-1 me-1"> or </span>
+            <Link href="/about">read about me</Link>
+          </div>
         </div>
       </section>
     </>
