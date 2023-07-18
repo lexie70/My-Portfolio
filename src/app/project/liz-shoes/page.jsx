@@ -1,10 +1,10 @@
 import Projects from "@/app/components/Projects";
 import NextProject from "@/app/components/NextProject";
 import Image from "next/image";
-import signup from "../../../../public/img/singup.png";
-import login from "../../../../public/img/Login.png";
-import addorder from "../../../../public/img/addorder.png";
-import responsive from "../../../../public/img/addplant.PNG";
+import signup from "../../../../public/img/lizsingup.png";
+import login from "../../../../public/img/lizlogin.png";
+import addorder from "../../../../public/img/lizaddorder.png";
+import responsive from "../../../../public/img/lizaddplant.png";
 
 export default function LizShoes() {
   return (

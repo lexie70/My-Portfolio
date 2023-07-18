@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
 import flores from "../../public/img/flores2.jpg";
-import starwars1 from "../../public/img/starwars1.png";
-import menu from "../../public/img/menu.PNG";
-import landing from "../../public/img/Capture.png";
+import starwars1 from "../../public/img/swstarwars1.png";
+import menu from "../../public/img/lizmenu.png";
+import landing from "../../public/img/landingortopedicos.png";
 import NeedADeveloper from "./components/NeedADeveloper";
 
 export default function Home() {

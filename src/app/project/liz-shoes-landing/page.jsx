@@ -1,9 +1,9 @@
 import Projects from "@/app/components/Projects";
 import NextProject from "@/app/components/NextProject";
-import botas from "../../../../public/img/landingbotas.PNG";
-import deportivo from "../../../../public/img/landingdeportivos.PNG";
-import tacos from "../../../../public/img/landingtacos.PNG";
-import orto from "../../../../public/img/landingortopedicos.PNG";
+import botas from "../../../../public/img/landingbotas.png";
+import deportivo from "../../../../public/img/landingdeportivos.png";
+import tacos from "../../../../public/img/landingtacos.png";
+import orto from "../../../../public/img/landingortopedicos.png";
 export default function LizShoesLanding() {
   return (
     <>

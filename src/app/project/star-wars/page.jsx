@@ -1,9 +1,9 @@
 import Projects from "@/app/components/Projects";
 import NextProject from "@/app/components/NextProject";
-import characters from "../../../../public/img/Characters.PNG";
-import ships from "../../../../public/img/Starships.PNG";
-import hoth from "../../../../public/img/readhoth2.png";
-import luke from "../../../../public/img/learnmoreluke.png";
+import characters from "../../../../public/img/swcharacters.png";
+import ships from "../../../../public/img/swstarships.png";
+import hoth from "../../../../public/img/swreadhoth.png";
+import luke from "../../../../public/img/swlearnmoreluke.png";
 export default function StarWars() {
   return (
     <div className="mobile">
