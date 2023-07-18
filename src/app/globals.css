@@ -320,6 +320,8 @@ select {
     line-height: 2.5rem;
     padding-top: 2px;
     padding-bottom: 3px;
+    color: red;
+    text-decoration: none;
   }
 
   .developer {
@@ -418,4 +420,8 @@ select {
     position: relative;
     top: 250px;
   }
+}
+.color-link {
+  color: red;
+  text-decoration: none;
 }

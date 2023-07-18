@@ -16,7 +16,7 @@ export default function About() {
           <div className="row">
             <div className="col-lg-5">
               <h5 className="">contact</h5>
-              <h1>Get in touch - let's work together.</h1>
+              <h1 className="">Get in touch - let's work together.</h1>
               <h5 className="mt-4">address</h5>
               <h4>
                 <b>
