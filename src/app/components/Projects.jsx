@@ -37,21 +37,26 @@ export default function Projects(props) {
           <Image
             src={props.image1}
             alt="Signup form"
-            height={500}
-            width={500}
+            height={1000}
+            width={1000}
           />
-          <Image src={props.image2} alt="Login form" height={500} width={500} />
+          <Image
+            src={props.image2}
+            alt="Login form"
+            height={1000}
+            width={1000}
+          />
           <Image
             src={props.image3}
             alt="Order addition form"
-            height={500}
-            width={500}
+            height={1000}
+            width={1000}
           />
           <Image
             src={props.image4}
             alt="Plant addition form"
-            height={500}
-            width={500}
+            height={1000}
+            width={1000}
           />
         </div>
       </div>

@@ -4,7 +4,7 @@ import "./globals.css";
 import flores from "../../public/img/flores2.jpg";
 import starwars1 from "../../public/img/swstarwars1.png";
 import menu from "../../public/img/lizmenu.png";
-import landing from "../../public/img/lizlogin.png";
+import landing from "../../public/img/tacos.png";
 import NeedADeveloper from "./components/NeedADeveloper";
 
 export default function Home() {
@@ -51,36 +51,20 @@ function Portfolio() {
       <h1 className="mb-4">Portfolio</h1>
       <div className="card-project-container container row">
         <div className="col-sm-12 col-md-5 mb-4">
-          <Card
-            link={"liz-shoes"}
-            title={"liz shoes"}
-            subtitle={"Project Description #1"}
-            image={menu}
-          />
+          <Card link={"liz-shoes"} title={"liz shoes"} image={menu} />
         </div>
         <div className="col-sm-12 col-md-5 mb-4">
-          <Card
-            link={"star-wars"}
-            title={"star wars"}
-            subtitle={"Project Description #2"}
-            image={starwars1}
-          />
+          <Card link={"star-wars"} title={"star wars"} image={starwars1} />
         </div>
         <div className="col-sm-12 col-md-5 mb-4">
           <Card
             link={"liz-shoes-landing"}
             title={"liz shoes landing"}
-            subtitle={"Project Description #3"}
             image={landing}
           />
         </div>
         <div className="col-sm-12 col-md-5 mb-4">
-          <Card
-            link={"twitter-clone"}
-            title={"twitter clone"}
-            subtitle={"Project Description #4"}
-            image={flores}
-          />
+          <Card link={"twitter-clone"} title={"twitter clone"} image={flores} />
         </div>
       </div>
     </div>
@@ -93,7 +77,12 @@ function Card({ link, title, subtitle, image }) {
       <div className="card-component">
         <h5 className="mt-5 ms-5">{title}</h5>
         <div className="">
-          <Image src={image} alt="Picture of the author" />
+          <Image
+            src={image}
+            alt="Picture of the author"
+            height={1000}
+            width={1000}
+          />
         </div>
         <h2 className="ms-5 card-h2">{subtitle}</h2>
       </div>
