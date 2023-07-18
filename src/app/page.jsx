@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
-import flores from "../../public/img/flores2.jpg";
 import starwars1 from "../../public/img/swstarwars1.png";
 import menu from "../../public/img/lizmenu.png";
 import landing from "../../public/img/tacos.png";
 import NeedADeveloper from "./components/NeedADeveloper";
+import mainpage from "../../public/img/mainpage.jpg";
 
 export default function Home() {
   return (
@@ -66,7 +66,11 @@ function Portfolio() {
           />
         </div>
         <div className="col-sm-12 col-md-5 mb-4">
-          <Card link={"twitter-clone"} title={"twitter clone"} image={flores} />
+          <Card
+            link={"twitter-clone"}
+            title={"twitter clone"}
+            image={mainpage}
+          />
         </div>
       </div>
     </div>

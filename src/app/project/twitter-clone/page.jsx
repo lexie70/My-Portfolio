@@ -1,5 +1,6 @@
 import Projects from "@/app/components/Projects";
 import flores from "../../../../public/img/flores.jpg";
+
 export default function TwitterClone() {
   return (
     <div className="mobile">
