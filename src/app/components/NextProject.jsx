@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function NextProject({ name, description, link }) {
   return (
     <>
-      <div className="center-needadeveloper-text">
+      <div className="center-needadeveloper-text read-view">
         <div className="centering">
           <h5>see also</h5>
           <h1 className="text">
