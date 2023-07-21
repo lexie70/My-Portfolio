@@ -1,6 +1,8 @@
 import Projects from "@/app/components/Projects";
 import fullcomment from "../../../../public/img/fullcomment2.jpg";
 import follow from "../../../../public/img/follow.jpg";
+import comment from "../../../../public/img/comment2.jpg";
+import main from "../../../../public/img/home.jpg";
 
 export default function TwitterClone() {
   return (
@@ -23,6 +25,8 @@ export default function TwitterClone() {
         }
         image1={fullcomment}
         image2={follow}
+        image3={comment}
+        image4={main}
       />
     </div>
   );

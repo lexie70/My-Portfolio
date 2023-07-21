@@ -19,12 +19,14 @@ TO DO
 <!-- b- montar las fotos en el carousel
 NOTA: todas las fotos deben tener el mismo height y weight -->
 
-5-Clickear menu (tiempo estimado:2 horas)
-a-Desplegar una vista con las opciones
+<!-- 5-Clickear menu (tiempo estimado:2 horas)
+a-Desplegar una vista con las opciones -->
 
 ===============================================================
-6-Portfolio/Home (tiempo estimado:1 horas)
-a-Cambiar fotos por las del proyecto en cuestion
+
+<!-- 6-Portfolio/Home (tiempo estimado:1 horas)
+a-Cambiar fotos por las del proyecto en cuestion -->
+
 ===============================================================
 
 <!-- hhhhhgyb- Al clickear redirigir al proyecto en cuestion -->

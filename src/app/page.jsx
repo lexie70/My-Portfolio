@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
@@ -20,6 +21,13 @@ export default function Home() {
 }
 
 function Intro() {
+  let handleClick = () => {
+    // Find the element you want to scroll to
+    const element = document.querySelector("#portfolio");
+
+    // Scroll to the element
+    element.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <>
       <section className="viewport-screen-100">
@@ -36,7 +44,9 @@ function Intro() {
             even had the chance to take part in a SAAS Project
           </p>
           <div className="read-view">
-            <Link href="/#portfolio">view projects</Link>
+            <Link href="/#portfolio" onClick={() => handleClick}>
+              view projects
+            </Link>
             <span className="ms-1 me-1"> or </span>
             <Link href="/about">read about me</Link>
           </div>

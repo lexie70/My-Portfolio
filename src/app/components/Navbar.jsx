@@ -65,13 +65,21 @@ function Menu() {
       </div>
       <ul className={styles.ul}>
         <li>
-          <a href="/projects">Projects</a>
+          <a href="/portfolio">Projects</a>
         </li>
         <li>
           <a href="/about">About me</a>
         </li>
         <li>
           <a href="/contact">Contact</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/alexandra-campos-carrillo-92422a26a/">
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/lexie70">Github</a>
         </li>
       </ul>
     </div>

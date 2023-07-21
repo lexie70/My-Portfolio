@@ -275,13 +275,19 @@ select {
 }
 .image-section {
   > img {
-    width: 100%;
-    height: 400px;
+    width: 70%;
+    height: 500px;
     margin-bottom: 30px;
   }
   > img:first-child {
     margin-top: 30px;
   }
+}
+.div-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* nextProject component classes */

@@ -33,7 +33,7 @@ export default function Projects(props) {
           <p>{props.p7}</p>
         </div>
         {/* image section */}
-        <div className="image-section">
+        <div className="image-section div-image">
           <Image
             src={props.image1}
             alt="Signup form"
