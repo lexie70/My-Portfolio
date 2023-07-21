@@ -1,5 +1,6 @@
 import Projects from "@/app/components/Projects";
-import flores from "../../../../public/img/flores.jpg";
+import fullcomment from "../../../../public/img/fullcomment2.jpg";
+import follow from "../../../../public/img/follow.jpg";
 
 export default function TwitterClone() {
   return (
@@ -20,10 +21,8 @@ export default function TwitterClone() {
         p4={
           "By utilizing these CSS classes and techniques in my 'Twitter Clone' project, I not only achieved the desired visual outcomes but also enhanced my ability to manipulate elements in CSS effectively. This experience provided valuable insights into best practices for styling and layout design, ultimately contributing to a more polished and user-friendly interface."
         }
-        image1={flores}
-        image2={flores}
-        image3={flores}
-        image4={flores}
+        image1={fullcomment}
+        image2={follow}
       />
     </div>
   );

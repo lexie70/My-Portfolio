@@ -8,13 +8,13 @@ import { useState } from "react";
 export default function About() {
   return (
     <>
-      <div className="mobile ">
+      <div className="mobile">
         <div className="crmap-size">
           <Image src={MapaCR} alt="Costa Rica's map" />
         </div>
         <div className="margin-separation">
           <div className="row">
-            <div className="col-lg-5">
+            <div className="col-lg-5 mt-lg-3">
               <h5 className="">contact</h5>
               <h1 className="">Get in touch - let's work together.</h1>
               <h5 className="mt-4">address</h5>
