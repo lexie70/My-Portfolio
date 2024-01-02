@@ -11,7 +11,7 @@ export default function LizShoes() {
       <Projects
         title={"Liz Shoes"}
         role={"Frontend Developer"}
-        year={"2021"}
+        year={"2022"}
         p1={
           "During my time at Liz Shoes, I had the opportunity to work on an innovative e-commerce solution designed for internal operations. The project focused on providing the company with an efficient and streamlined system for managing logistics, inventory, and other related tasks."
         }

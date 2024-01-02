@@ -65,7 +65,7 @@ function Menu() {
       </div>
       <ul className={styles.ul}>
         <li>
-          <a href="/portfolio">Projects</a>
+          <a href="/project/liz-shoes">Projects</a>
         </li>
         <li>
           <a href="/about">About me</a>

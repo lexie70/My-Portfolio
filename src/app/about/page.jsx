@@ -12,9 +12,9 @@ export default function About() {
         interfaces.
       </h1>
       <h3 className="mt-5 h3class-about">
-        Over the past 3 years I have been working with eCommerce companies
+       I have been working the past year with eCommerce companies
         around the world and have been offering services around them,
-        maintaining eCommerce websites and developing SAAS. In my spare time I
+        maintaining eCommerce websites, my expertise extends to orchestrating seamless development workflows through Azure DevOps as well. In my spare time I
         enjoy exercising and playing videogames.
       </h3>
 
@@ -83,7 +83,7 @@ function Experience() {
   return (
     <div>
       <h5 className="margin-separation mb-3 mt-3">experience</h5>
-      <h1 className="mb-4">Over 3 Years Experience</h1>
+      <h1 className="mb-4">Over a Year Experience</h1>
       <h3 className="h3class-about">
         I’ve been lucky enough to establish relationships with amazing clients
         from all over the world, ranging from individual clients to mid-range

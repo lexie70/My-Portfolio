@@ -38,16 +38,9 @@ function Intro() {
           <h5 className="mb-4">Alexandra Campos</h5>
           <h1 className="col-6">Frontend Developer and web designer</h1>
           <p className="col-6 mt-4">
-            Since 2019 I have been working in various projects, some of them
-            involving big eCommerce companies. Had the opportunity to be part of
-            small teams and developed various responsive websites and SPAs and
-            even had the chance to take part in a SAAS Project
+          Since 2022, I've been deeply immersed in diverse projects, with a particular focus on prominent eCommerce companies. I've actively contributed to small, dynamic teams, showcasing my expertise in crafting responsive websites and Single Page Applications (SPAs). I have extended my skills to encompass Azure DevOps, seamlessly integrating microservices into cloud-based architectures. Moreover, I've been an integral part of projects that leverage the power of the cloud for enhanced scalability and performance. This experience has provided me with a robust understanding of orchestrating microservices and optimizing development pipelines through Azure DevOps. Looking forward to bringing this wealth of knowledge and hands-on experience to future endeavors
           </p>
           <div className="read-view">
-            <Link href="/#portfolio" onClick={() => handleClick}>
-              view projects
-            </Link>
-            <span className="ms-1 me-1"> or </span>
             <Link href="/about">read about me</Link>
           </div>
         </div>
